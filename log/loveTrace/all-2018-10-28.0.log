@@ -29474,3 +29474,1695 @@ Caused by: java.net.SocketException: Software caused connection abort: socket wr
 				Forwarding to resource [/WEB-INF/jsp/biaobai.jsp] in InternalResourceView 'biaobai'
 2018-10-28 05:05:12.362 [http-bio-80-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet -
 				Successfully completed request
+2018-10-28 05:19:15.219 [http-bio-80-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/]
+2018-10-28 05:19:15.219 [http-bio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /
+2018-10-28 05:19:15.219 [http-bio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Returning handler method [public java.lang.String aijingjing.controller.PathController.show()]
+2018-10-28 05:19:15.219 [http-bio-80-exec-10] DEBUG o.s.b.factory.support.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'pathController'
+2018-10-28 05:19:15.219 [http-bio-80-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/] is: -1
+2018-10-28 05:19:15.221 [http-bio-80-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Rendering view [org.springframework.web.servlet.view.JstlView: name 'index'; URL [/WEB-INF/jsp/index.jsp]] in DispatcherServlet with name 'loveTrace'
+2018-10-28 05:19:15.222 [http-bio-80-exec-10] DEBUG org.springframework.web.servlet.view.JstlView -
+				Forwarding to resource [/WEB-INF/jsp/index.jsp] in InternalResourceView 'index'
+2018-10-28 05:19:15.321 [http-bio-80-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.370 [http-bio-80-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/css/plug/bootstrap.min.css]
+2018-10-28 05:19:15.371 [http-bio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/css/plug/bootstrap.min.css
+2018-10-28 05:19:15.371 [http-bio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/css/plug/bootstrap.min.css]
+2018-10-28 05:19:15.371 [http-bio-80-exec-10] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/css/plug/bootstrap.min.css] are [/static/**]
+2018-10-28 05:19:15.371 [http-bio-80-exec-10] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/css/plug/bootstrap.min.css] are {}
+2018-10-28 05:19:15.371 [http-bio-80-exec-10] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/css/plug/bootstrap.min.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.371 [http-bio-80-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/css/plug/bootstrap.min.css] is: -1
+2018-10-28 05:19:15.373 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/css/plug/bootstrap-treeview.min.css]
+2018-10-28 05:19:15.373 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/css/plug/bootstrap-treeview.min.css
+2018-10-28 05:19:15.373 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/css/plug/bootstrap-treeview.min.css]
+2018-10-28 05:19:15.373 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/css/plug/bootstrap-treeview.min.css] are [/static/**]
+2018-10-28 05:19:15.373 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/css/plug/bootstrap-treeview.min.css] are {}
+2018-10-28 05:19:15.373 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/css/plug/bootstrap-treeview.min.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.373 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/css/plug/bootstrap-treeview.min.css] is: -1
+2018-10-28 05:19:15.374 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/css/plug/toastr.min.css]
+2018-10-28 05:19:15.374 [http-bio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/css/plug/toastr.min.css
+2018-10-28 05:19:15.374 [http-bio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/css/plug/toastr.min.css]
+2018-10-28 05:19:15.374 [http-bio-80-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/css/plug/toastr.min.css] are [/static/**]
+2018-10-28 05:19:15.374 [http-bio-80-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/css/plug/toastr.min.css] are {}
+2018-10-28 05:19:15.374 [http-bio-80-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/css/plug/toastr.min.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.374 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/css/plug/toastr.min.css] is: -1
+2018-10-28 05:19:15.374 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.374 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.374 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.374 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.377 [http-bio-80-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/css/plug/bootstrap-dialog.min.css]
+2018-10-28 05:19:15.377 [http-bio-80-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/css/plug/bootstrap-dialog.min.css
+2018-10-28 05:19:15.377 [http-bio-80-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/css/plug/bootstrap-dialog.min.css]
+2018-10-28 05:19:15.377 [http-bio-80-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/css/plug/bootstrap-dialog.min.css] are [/static/**]
+2018-10-28 05:19:15.377 [http-bio-80-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/css/plug/bootstrap-dialog.min.css] are {}
+2018-10-28 05:19:15.377 [http-bio-80-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/css/plug/bootstrap-dialog.min.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.377 [http-bio-80-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/css/plug/bootstrap-dialog.min.css] is: -1
+2018-10-28 05:19:15.377 [http-bio-80-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.378 [http-bio-80-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.379 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/css/plug/wangEditor.min.css]
+2018-10-28 05:19:15.379 [http-bio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/css/plug/wangEditor.min.css
+2018-10-28 05:19:15.379 [http-bio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/css/plug/wangEditor.min.css]
+2018-10-28 05:19:15.379 [http-bio-80-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/css/plug/wangEditor.min.css] are [/static/**]
+2018-10-28 05:19:15.379 [http-bio-80-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/css/plug/wangEditor.min.css] are {}
+2018-10-28 05:19:15.379 [http-bio-80-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/css/plug/wangEditor.min.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.379 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/css/plug/wangEditor.min.css] is: -1
+2018-10-28 05:19:15.379 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/css/plug/animate.css]
+2018-10-28 05:19:15.380 [http-bio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/css/plug/animate.css
+2018-10-28 05:19:15.380 [http-bio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/css/plug/animate.css]
+2018-10-28 05:19:15.380 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/css/plug/animate.css] are [/static/**]
+2018-10-28 05:19:15.380 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/css/plug/animate.css] are {}
+2018-10-28 05:19:15.380 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/css/plug/animate.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.380 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/css/plug/animate.css] is: -1
+2018-10-28 05:19:15.382 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.382 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.396 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/css/plug/fileinput.min.css]
+2018-10-28 05:19:15.396 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/css/plug/fileinput.min.css
+2018-10-28 05:19:15.396 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/css/plug/fileinput.min.css]
+2018-10-28 05:19:15.396 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/css/plug/fileinput.min.css] are [/static/**]
+2018-10-28 05:19:15.396 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/css/plug/fileinput.min.css] are {}
+2018-10-28 05:19:15.396 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/css/plug/fileinput.min.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.396 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/css/plug/fileinput.min.css] is: -1
+2018-10-28 05:19:15.397 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.397 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.398 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/css/plug/bootstrap-table.min.css]
+2018-10-28 05:19:15.398 [http-bio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/css/plug/bootstrap-table.min.css
+2018-10-28 05:19:15.398 [http-bio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/css/plug/bootstrap-table.min.css]
+2018-10-28 05:19:15.398 [http-bio-80-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/css/plug/bootstrap-table.min.css] are [/static/**]
+2018-10-28 05:19:15.398 [http-bio-80-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/css/plug/bootstrap-table.min.css] are {}
+2018-10-28 05:19:15.398 [http-bio-80-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/css/plug/bootstrap-table.min.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.399 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/css/plug/bootstrap-table.min.css] is: -1
+2018-10-28 05:19:15.399 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.399 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.401 [http-bio-80-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/css/plug/bootstrapValidator.min.css]
+2018-10-28 05:19:15.401 [http-bio-80-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/css/plug/bootstrapValidator.min.css
+2018-10-28 05:19:15.401 [http-bio-80-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/css/plug/bootstrapValidator.min.css]
+2018-10-28 05:19:15.402 [http-bio-80-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/css/plug/bootstrapValidator.min.css] are [/static/**]
+2018-10-28 05:19:15.402 [http-bio-80-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/css/plug/bootstrapValidator.min.css] are {}
+2018-10-28 05:19:15.402 [http-bio-80-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/css/plug/bootstrapValidator.min.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.402 [http-bio-80-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/css/plug/bootstrapValidator.min.css] is: -1
+2018-10-28 05:19:15.402 [http-bio-80-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.402 [http-bio-80-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.406 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.406 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.407 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/css/plug/bootstrap-maizi.css]
+2018-10-28 05:19:15.407 [http-bio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/css/plug/bootstrap-maizi.css
+2018-10-28 05:19:15.407 [http-bio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/css/plug/bootstrap-maizi.css]
+2018-10-28 05:19:15.408 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/css/plug/bootstrap-maizi.css] are [/static/**]
+2018-10-28 05:19:15.408 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/css/plug/bootstrap-maizi.css] are {}
+2018-10-28 05:19:15.408 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/css/plug/bootstrap-maizi.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.408 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/css/plug/bootstrap-maizi.css] is: -1
+2018-10-28 05:19:15.408 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.408 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.420 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/css/old/index1.css]
+2018-10-28 05:19:15.420 [http-bio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/css/old/index1.css
+2018-10-28 05:19:15.420 [http-bio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/css/old/index1.css]
+2018-10-28 05:19:15.420 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/css/old/index1.css] are [/static/**]
+2018-10-28 05:19:15.420 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/css/old/index1.css] are {}
+2018-10-28 05:19:15.420 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/css/old/index1.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.420 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/css/old/index1.css] is: -1
+2018-10-28 05:19:15.421 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.421 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.426 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/plug/jquery.min.js]
+2018-10-28 05:19:15.426 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/plug/jquery.min.js
+2018-10-28 05:19:15.426 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/plug/jquery.min.js]
+2018-10-28 05:19:15.426 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/plug/jquery.min.js] are [/static/**]
+2018-10-28 05:19:15.426 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/plug/jquery.min.js] are {}
+2018-10-28 05:19:15.426 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/plug/jquery.min.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.426 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/plug/jquery.min.js] is: -1
+2018-10-28 05:19:15.432 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/plug/toastr.min.js]
+2018-10-28 05:19:15.432 [http-bio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/plug/toastr.min.js
+2018-10-28 05:19:15.432 [http-bio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/plug/toastr.min.js]
+2018-10-28 05:19:15.433 [http-bio-80-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/plug/toastr.min.js] are [/static/**]
+2018-10-28 05:19:15.433 [http-bio-80-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/plug/toastr.min.js] are {}
+2018-10-28 05:19:15.433 [http-bio-80-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/plug/toastr.min.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.433 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/plug/toastr.min.js] is: -1
+2018-10-28 05:19:15.433 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.433 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.439 [http-bio-80-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/plug/bootstrap.min.js]
+2018-10-28 05:19:15.439 [http-bio-80-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/plug/bootstrap.min.js
+2018-10-28 05:19:15.439 [http-bio-80-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/plug/bootstrap.min.js]
+2018-10-28 05:19:15.439 [http-bio-80-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/plug/bootstrap.min.js] are [/static/**]
+2018-10-28 05:19:15.439 [http-bio-80-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/plug/bootstrap.min.js] are {}
+2018-10-28 05:19:15.439 [http-bio-80-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/plug/bootstrap.min.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.440 [http-bio-80-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/plug/bootstrap.min.js] is: -1
+2018-10-28 05:19:15.441 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/plug/bootstrap-treeview.js]
+2018-10-28 05:19:15.441 [http-bio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/plug/bootstrap-treeview.js
+2018-10-28 05:19:15.441 [http-bio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/plug/bootstrap-treeview.js]
+2018-10-28 05:19:15.442 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/plug/bootstrap-treeview.js] are [/static/**]
+2018-10-28 05:19:15.442 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/plug/bootstrap-treeview.js] are {}
+2018-10-28 05:19:15.442 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/plug/bootstrap-treeview.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.442 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/plug/bootstrap-treeview.js] is: -1
+2018-10-28 05:19:15.443 [http-bio-80-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.443 [http-bio-80-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.449 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/plug/wangEditor.min.js]
+2018-10-28 05:19:15.449 [http-bio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/plug/wangEditor.min.js
+2018-10-28 05:19:15.449 [http-bio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/plug/wangEditor.min.js]
+2018-10-28 05:19:15.449 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/plug/wangEditor.min.js] are [/static/**]
+2018-10-28 05:19:15.449 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/plug/wangEditor.min.js] are {}
+2018-10-28 05:19:15.450 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/plug/wangEditor.min.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.450 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/plug/wangEditor.min.js] is: -1
+2018-10-28 05:19:15.463 [http-bio-80-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/plug/Chart.js]
+2018-10-28 05:19:15.463 [http-bio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/plug/Chart.js
+2018-10-28 05:19:15.463 [http-bio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/plug/Chart.js]
+2018-10-28 05:19:15.463 [http-bio-80-exec-10] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/plug/Chart.js] are [/static/**]
+2018-10-28 05:19:15.464 [http-bio-80-exec-10] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/plug/Chart.js] are {}
+2018-10-28 05:19:15.464 [http-bio-80-exec-10] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/plug/Chart.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.464 [http-bio-80-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/plug/Chart.js] is: -1
+2018-10-28 05:19:15.466 [http-bio-80-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.466 [http-bio-80-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.466 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.466 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.473 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/plug/bootstrap-dialog.min.js]
+2018-10-28 05:19:15.473 [http-bio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/plug/bootstrap-dialog.min.js
+2018-10-28 05:19:15.473 [http-bio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/plug/bootstrap-dialog.min.js]
+2018-10-28 05:19:15.473 [http-bio-80-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/plug/bootstrap-dialog.min.js] are [/static/**]
+2018-10-28 05:19:15.473 [http-bio-80-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/plug/bootstrap-dialog.min.js] are {}
+2018-10-28 05:19:15.473 [http-bio-80-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/plug/bootstrap-dialog.min.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.473 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/plug/bootstrap-dialog.min.js] is: -1
+2018-10-28 05:19:15.474 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.474 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.481 [http-bio-80-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/plug/fileinput.min.js]
+2018-10-28 05:19:15.481 [http-bio-80-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/plug/fileinput.min.js
+2018-10-28 05:19:15.482 [http-bio-80-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/plug/fileinput.min.js]
+2018-10-28 05:19:15.482 [http-bio-80-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/plug/fileinput.min.js] are [/static/**]
+2018-10-28 05:19:15.482 [http-bio-80-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/plug/fileinput.min.js] are {}
+2018-10-28 05:19:15.482 [http-bio-80-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/plug/fileinput.min.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.482 [http-bio-80-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/plug/fileinput.min.js] is: -1
+2018-10-28 05:19:15.483 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/plug/fileinput_zh.js]
+2018-10-28 05:19:15.483 [http-bio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/plug/fileinput_zh.js
+2018-10-28 05:19:15.483 [http-bio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/plug/fileinput_zh.js]
+2018-10-28 05:19:15.483 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/plug/fileinput_zh.js] are [/static/**]
+2018-10-28 05:19:15.483 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/plug/fileinput_zh.js] are {}
+2018-10-28 05:19:15.483 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/plug/fileinput_zh.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.483 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/plug/fileinput_zh.js] is: -1
+2018-10-28 05:19:15.484 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.484 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.485 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.485 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.487 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.487 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.500 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/plug/bootstrap-table.min.js]
+2018-10-28 05:19:15.500 [http-bio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/plug/bootstrap-table.min.js
+2018-10-28 05:19:15.500 [http-bio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/plug/bootstrap-table.min.js]
+2018-10-28 05:19:15.500 [http-bio-80-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/plug/bootstrap-table.min.js] are [/static/**]
+2018-10-28 05:19:15.500 [http-bio-80-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/plug/bootstrap-table.min.js] are {}
+2018-10-28 05:19:15.500 [http-bio-80-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/plug/bootstrap-table.min.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.500 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/plug/bootstrap-table.min.js] is: -1
+2018-10-28 05:19:15.504 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/plug/bootstrap-table-zh-CN.min.js]
+2018-10-28 05:19:15.504 [http-bio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/plug/bootstrap-table-zh-CN.min.js
+2018-10-28 05:19:15.504 [http-bio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/plug/bootstrap-table-zh-CN.min.js]
+2018-10-28 05:19:15.504 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/plug/bootstrap-table-zh-CN.min.js] are [/static/**]
+2018-10-28 05:19:15.504 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/plug/bootstrap-table-zh-CN.min.js] are {}
+2018-10-28 05:19:15.504 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/plug/bootstrap-table-zh-CN.min.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.504 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/plug/bootstrap-table-zh-CN.min.js] is: -1
+2018-10-28 05:19:15.505 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.505 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.512 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/plug/bootstrapValidator.min.js]
+2018-10-28 05:19:15.512 [http-bio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/plug/bootstrapValidator.min.js
+2018-10-28 05:19:15.512 [http-bio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/plug/bootstrapValidator.min.js]
+2018-10-28 05:19:15.513 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/plug/bootstrapValidator.min.js] are [/static/**]
+2018-10-28 05:19:15.513 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/plug/bootstrapValidator.min.js] are {}
+2018-10-28 05:19:15.513 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/plug/bootstrapValidator.min.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.513 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/plug/bootstrapValidator.min.js] is: -1
+2018-10-28 05:19:15.514 [http-bio-80-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.515 [http-bio-80-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.515 [http-bio-80-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.516 [http-bio-80-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.517 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/plug/bootstrapValidator_zh_CN.js]
+2018-10-28 05:19:15.517 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/plug/bootstrapValidator_zh_CN.js
+2018-10-28 05:19:15.517 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/plug/bootstrapValidator_zh_CN.js]
+2018-10-28 05:19:15.517 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/plug/bootstrapValidator_zh_CN.js] are [/static/**]
+2018-10-28 05:19:15.517 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/plug/bootstrapValidator_zh_CN.js] are {}
+2018-10-28 05:19:15.517 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/plug/bootstrapValidator_zh_CN.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.517 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/plug/bootstrapValidator_zh_CN.js] is: -1
+2018-10-28 05:19:15.518 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.518 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.519 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.519 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.521 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/old/js.js]
+2018-10-28 05:19:15.521 [http-bio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/old/js.js
+2018-10-28 05:19:15.522 [http-bio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/old/js.js]
+2018-10-28 05:19:15.523 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/old/js.js] are [/static/**]
+2018-10-28 05:19:15.523 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/old/js.js] are {}
+2018-10-28 05:19:15.523 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/old/js.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.523 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/old/js.js] is: -1
+2018-10-28 05:19:15.523 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.523 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.532 [http-bio-80-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/old/index.js]
+2018-10-28 05:19:15.532 [http-bio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/old/index.js
+2018-10-28 05:19:15.545 [http-bio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/old/index.js]
+2018-10-28 05:19:15.545 [http-bio-80-exec-10] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/old/index.js] are [/static/**]
+2018-10-28 05:19:15.545 [http-bio-80-exec-10] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/old/index.js] are {}
+2018-10-28 05:19:15.545 [http-bio-80-exec-10] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/old/index.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.545 [http-bio-80-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/old/index.js] is: -1
+2018-10-28 05:19:15.597 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.597 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.616 [http-bio-80-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.616 [http-bio-80-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.633 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/flower.jpg]
+2018-10-28 05:19:15.634 [http-bio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/flower.jpg
+2018-10-28 05:19:15.634 [http-bio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/flower.jpg]
+2018-10-28 05:19:15.634 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/flower.jpg] are [/static/**]
+2018-10-28 05:19:15.634 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/flower.jpg] are {}
+2018-10-28 05:19:15.634 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/flower.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.634 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/flower.jpg] is: -1
+2018-10-28 05:19:15.635 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.639 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.646 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/p01.jpg]
+2018-10-28 05:19:15.646 [http-bio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/p01.jpg
+2018-10-28 05:19:15.646 [http-bio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/p01.jpg]
+2018-10-28 05:19:15.646 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/p01.jpg] are [/static/**]
+2018-10-28 05:19:15.646 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/p01.jpg] are {}
+2018-10-28 05:19:15.646 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/p01.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.646 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/p01.jpg] is: -1
+2018-10-28 05:19:15.647 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.647 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.654 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/p02.jpg]
+2018-10-28 05:19:15.654 [http-bio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/p02.jpg
+2018-10-28 05:19:15.654 [http-bio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/p02.jpg]
+2018-10-28 05:19:15.654 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/p02.jpg] are [/static/**]
+2018-10-28 05:19:15.654 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/p02.jpg] are {}
+2018-10-28 05:19:15.654 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/p02.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.654 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/p02.jpg] is: -1
+2018-10-28 05:19:15.655 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.655 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.660 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/p03.jpg]
+2018-10-28 05:19:15.660 [http-bio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/p03.jpg
+2018-10-28 05:19:15.660 [http-bio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/p03.jpg]
+2018-10-28 05:19:15.660 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/p03.jpg] are [/static/**]
+2018-10-28 05:19:15.660 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/p03.jpg] are {}
+2018-10-28 05:19:15.660 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/p03.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.661 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/p03.jpg] is: -1
+2018-10-28 05:19:15.661 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.662 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.666 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/p04.jpg]
+2018-10-28 05:19:15.667 [http-bio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/p04.jpg
+2018-10-28 05:19:15.667 [http-bio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/p04.jpg]
+2018-10-28 05:19:15.667 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/p04.jpg] are [/static/**]
+2018-10-28 05:19:15.667 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/p04.jpg] are {}
+2018-10-28 05:19:15.667 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/p04.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.667 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/p04.jpg] is: -1
+2018-10-28 05:19:15.668 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.668 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.675 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/p05.jpg]
+2018-10-28 05:19:15.675 [http-bio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/p05.jpg
+2018-10-28 05:19:15.675 [http-bio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/p05.jpg]
+2018-10-28 05:19:15.675 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/p05.jpg] are [/static/**]
+2018-10-28 05:19:15.675 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/p05.jpg] are {}
+2018-10-28 05:19:15.675 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/p05.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.675 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/p05.jpg] is: -1
+2018-10-28 05:19:15.686 [http-bio-80-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/bg.jpg]
+2018-10-28 05:19:15.686 [http-bio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/bg.jpg
+2018-10-28 05:19:15.686 [http-bio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/bg.jpg]
+2018-10-28 05:19:15.686 [http-bio-80-exec-10] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/bg.jpg] are [/static/**]
+2018-10-28 05:19:15.686 [http-bio-80-exec-10] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/bg.jpg] are {}
+2018-10-28 05:19:15.687 [http-bio-80-exec-10] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/bg.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.687 [http-bio-80-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/bg.jpg] is: -1
+2018-10-28 05:19:15.687 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.687 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.705 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/boy.jpg]
+2018-10-28 05:19:15.705 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/boy.jpg
+2018-10-28 05:19:15.705 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/boy.jpg]
+2018-10-28 05:19:15.705 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/boy.jpg] are [/static/**]
+2018-10-28 05:19:15.705 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/boy.jpg] are {}
+2018-10-28 05:19:15.705 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/boy.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.705 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/boy.jpg] is: -1
+2018-10-28 05:19:15.705 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.706 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.707 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/t01.jpg]
+2018-10-28 05:19:15.707 [http-bio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/t01.jpg
+2018-10-28 05:19:15.707 [http-bio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/t01.jpg]
+2018-10-28 05:19:15.707 [http-bio-80-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/t01.jpg] are [/static/**]
+2018-10-28 05:19:15.708 [http-bio-80-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/t01.jpg] are {}
+2018-10-28 05:19:15.708 [http-bio-80-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/t01.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.708 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/t01.jpg] is: -1
+2018-10-28 05:19:15.709 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/girl.jpg]
+2018-10-28 05:19:15.709 [http-bio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/girl.jpg
+2018-10-28 05:19:15.709 [http-bio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/girl.jpg]
+2018-10-28 05:19:15.709 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/girl.jpg] are [/static/**]
+2018-10-28 05:19:15.709 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/girl.jpg] are {}
+2018-10-28 05:19:15.709 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/girl.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.709 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/girl.jpg] is: -1
+2018-10-28 05:19:15.710 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.710 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.711 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/p06.jpg]
+2018-10-28 05:19:15.711 [http-bio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/p06.jpg
+2018-10-28 05:19:15.711 [http-bio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/p06.jpg]
+2018-10-28 05:19:15.712 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/p06.jpg] are [/static/**]
+2018-10-28 05:19:15.712 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/p06.jpg] are {}
+2018-10-28 05:19:15.712 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/p06.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.712 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/p06.jpg] is: -1
+2018-10-28 05:19:15.716 [http-bio-80-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/t02.jpg]
+2018-10-28 05:19:15.719 [http-bio-80-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/t02.jpg
+2018-10-28 05:19:15.719 [http-bio-80-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/t02.jpg]
+2018-10-28 05:19:15.719 [http-bio-80-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/t02.jpg] are [/static/**]
+2018-10-28 05:19:15.719 [http-bio-80-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/t02.jpg] are {}
+2018-10-28 05:19:15.719 [http-bio-80-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/t02.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.719 [http-bio-80-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/t02.jpg] is: -1
+2018-10-28 05:19:15.718 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.722 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.718 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.723 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.728 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/t03.jpg]
+2018-10-28 05:19:15.728 [http-bio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/t03.jpg
+2018-10-28 05:19:15.728 [http-bio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/t03.jpg]
+2018-10-28 05:19:15.728 [http-bio-80-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/t03.jpg] are [/static/**]
+2018-10-28 05:19:15.729 [http-bio-80-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/t03.jpg] are {}
+2018-10-28 05:19:15.729 [http-bio-80-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/t03.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.729 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/t03.jpg] is: -1
+2018-10-28 05:19:15.731 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.731 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.733 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/s7.jpg]
+2018-10-28 05:19:15.733 [http-bio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/s7.jpg
+2018-10-28 05:19:15.733 [http-bio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/s7.jpg]
+2018-10-28 05:19:15.733 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/s7.jpg] are [/static/**]
+2018-10-28 05:19:15.733 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/s7.jpg] are {}
+2018-10-28 05:19:15.733 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/s7.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.733 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/s7.jpg] is: -1
+2018-10-28 05:19:15.734 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.734 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.734 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/s8.jpg]
+2018-10-28 05:19:15.734 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/s8.jpg
+2018-10-28 05:19:15.734 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/s8.jpg]
+2018-10-28 05:19:15.734 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/s8.jpg] are [/static/**]
+2018-10-28 05:19:15.735 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/s8.jpg] are {}
+2018-10-28 05:19:15.735 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/s8.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.735 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/s8.jpg] is: -1
+2018-10-28 05:19:15.735 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.735 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.736 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/s6.jpg]
+2018-10-28 05:19:15.737 [http-bio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/s6.jpg
+2018-10-28 05:19:15.737 [http-bio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/s6.jpg]
+2018-10-28 05:19:15.737 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/s6.jpg] are [/static/**]
+2018-10-28 05:19:15.737 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/s6.jpg] are {}
+2018-10-28 05:19:15.737 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/s6.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.737 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/s6.jpg] is: -1
+2018-10-28 05:19:15.738 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.738 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.744 [http-bio-80-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.744 [http-bio-80-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.745 [http-bio-80-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/flower.png]
+2018-10-28 05:19:15.745 [http-bio-80-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/flower.png
+2018-10-28 05:19:15.746 [http-bio-80-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/flower.png]
+2018-10-28 05:19:15.746 [http-bio-80-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/flower.png] are [/static/**]
+2018-10-28 05:19:15.746 [http-bio-80-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/flower.png] are {}
+2018-10-28 05:19:15.746 [http-bio-80-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/flower.png] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.746 [http-bio-80-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/flower.png] is: -1
+2018-10-28 05:19:15.746 [http-bio-80-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.746 [http-bio-80-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.757 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/love.png]
+2018-10-28 05:19:15.757 [http-bio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/love.png
+2018-10-28 05:19:15.757 [http-bio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/love.png]
+2018-10-28 05:19:15.757 [http-bio-80-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/love.png] are [/static/**]
+2018-10-28 05:19:15.757 [http-bio-80-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/love.png] are {}
+2018-10-28 05:19:15.757 [http-bio-80-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/love.png] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.757 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/love.png] is: -1
+2018-10-28 05:19:15.761 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/css/fonts/glyphicons-halflings-regular.woff2]
+2018-10-28 05:19:15.761 [http-bio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/css/fonts/glyphicons-halflings-regular.woff2
+2018-10-28 05:19:15.761 [http-bio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/css/fonts/glyphicons-halflings-regular.woff2]
+2018-10-28 05:19:15.761 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/css/fonts/glyphicons-halflings-regular.woff2] are [/static/**]
+2018-10-28 05:19:15.761 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/css/fonts/glyphicons-halflings-regular.woff2] are {}
+2018-10-28 05:19:15.761 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/css/fonts/glyphicons-halflings-regular.woff2] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.762 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/css/fonts/glyphicons-halflings-regular.woff2] is: -1
+2018-10-28 05:19:15.769 [http-bio-80-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.770 [http-bio-80-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.773 [http-bio-80-exec-7] DEBUG org.springframework.web.cors.DefaultCorsProcessor -
+				Skip CORS processing, request is a same-origin one
+2018-10-28 05:19:15.778 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.778 [http-bio-80-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.791 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.791 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:19:15.860 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/xin.png]
+2018-10-28 05:19:15.861 [http-bio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/xin.png
+2018-10-28 05:19:15.861 [http-bio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/xin.png]
+2018-10-28 05:19:15.861 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/xin.png] are [/static/**]
+2018-10-28 05:19:15.861 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/xin.png] are {}
+2018-10-28 05:19:15.861 [http-bio-80-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/xin.png] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:19:15.861 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/xin.png] is: -1
+2018-10-28 05:19:15.861 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:19:15.861 [http-bio-80-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.490 [http-bio-80-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/]
+2018-10-28 05:20:28.491 [http-bio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /
+2018-10-28 05:20:28.491 [http-bio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Returning handler method [public java.lang.String aijingjing.controller.PathController.show()]
+2018-10-28 05:20:28.491 [http-bio-80-exec-1] DEBUG o.s.b.factory.support.DefaultListableBeanFactory -
+				Returning cached instance of singleton bean 'pathController'
+2018-10-28 05:20:28.491 [http-bio-80-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/] is: -1
+2018-10-28 05:20:28.492 [http-bio-80-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Rendering view [org.springframework.web.servlet.view.JstlView: name 'index'; URL [/WEB-INF/jsp/index.jsp]] in DispatcherServlet with name 'loveTrace'
+2018-10-28 05:20:28.492 [http-bio-80-exec-1] DEBUG org.springframework.web.servlet.view.JstlView -
+				Forwarding to resource [/WEB-INF/jsp/index.jsp] in InternalResourceView 'index'
+2018-10-28 05:20:28.561 [http-bio-80-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.594 [http-bio-80-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/css/plug/bootstrap.min.css]
+2018-10-28 05:20:28.594 [http-bio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/css/plug/bootstrap.min.css
+2018-10-28 05:20:28.594 [http-bio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/css/plug/bootstrap.min.css]
+2018-10-28 05:20:28.594 [http-bio-80-exec-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/css/plug/bootstrap.min.css] are [/static/**]
+2018-10-28 05:20:28.595 [http-bio-80-exec-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/css/plug/bootstrap.min.css] are {}
+2018-10-28 05:20:28.595 [http-bio-80-exec-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/css/plug/bootstrap.min.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.595 [http-bio-80-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/css/plug/bootstrap.min.css] is: -1
+2018-10-28 05:20:28.596 [http-bio-80-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/css/plug/toastr.min.css]
+2018-10-28 05:20:28.596 [http-bio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/css/plug/toastr.min.css
+2018-10-28 05:20:28.596 [http-bio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/css/plug/toastr.min.css]
+2018-10-28 05:20:28.596 [http-bio-80-exec-6] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/css/plug/toastr.min.css] are [/static/**]
+2018-10-28 05:20:28.596 [http-bio-80-exec-6] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/css/plug/toastr.min.css] are {}
+2018-10-28 05:20:28.596 [http-bio-80-exec-6] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/css/plug/toastr.min.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.597 [http-bio-80-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/css/plug/toastr.min.css] is: -1
+2018-10-28 05:20:28.597 [http-bio-80-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.597 [http-bio-80-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.598 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/css/plug/bootstrap-dialog.min.css]
+2018-10-28 05:20:28.598 [http-bio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/css/plug/bootstrap-dialog.min.css
+2018-10-28 05:20:28.598 [http-bio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/css/plug/bootstrap-dialog.min.css]
+2018-10-28 05:20:28.598 [http-bio-80-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/css/plug/bootstrap-dialog.min.css] are [/static/**]
+2018-10-28 05:20:28.598 [http-bio-80-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/css/plug/bootstrap-dialog.min.css] are {}
+2018-10-28 05:20:28.598 [http-bio-80-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/css/plug/bootstrap-dialog.min.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.598 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/css/plug/bootstrap-dialog.min.css] is: -1
+2018-10-28 05:20:28.599 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.599 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.599 [http-bio-80-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/css/plug/bootstrap-treeview.min.css]
+2018-10-28 05:20:28.599 [http-bio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/css/plug/bootstrap-treeview.min.css
+2018-10-28 05:20:28.599 [http-bio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/css/plug/bootstrap-treeview.min.css]
+2018-10-28 05:20:28.600 [http-bio-80-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/css/plug/bootstrap-treeview.min.css] are [/static/**]
+2018-10-28 05:20:28.601 [http-bio-80-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/css/plug/bootstrap-treeview.min.css] are {}
+2018-10-28 05:20:28.601 [http-bio-80-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/css/plug/bootstrap-treeview.min.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.601 [http-bio-80-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/css/plug/bootstrap-treeview.min.css] is: -1
+2018-10-28 05:20:28.602 [http-bio-80-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.602 [http-bio-80-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.604 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/css/plug/wangEditor.min.css]
+2018-10-28 05:20:28.604 [http-bio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/css/plug/wangEditor.min.css
+2018-10-28 05:20:28.605 [http-bio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/css/plug/wangEditor.min.css]
+2018-10-28 05:20:28.605 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/css/plug/wangEditor.min.css] are [/static/**]
+2018-10-28 05:20:28.605 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/css/plug/wangEditor.min.css] are {}
+2018-10-28 05:20:28.605 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/css/plug/wangEditor.min.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.605 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/css/plug/animate.css]
+2018-10-28 05:20:28.605 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/css/plug/wangEditor.min.css] is: -1
+2018-10-28 05:20:28.605 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/css/plug/animate.css
+2018-10-28 05:20:28.605 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/css/plug/animate.css]
+2018-10-28 05:20:28.605 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/css/plug/animate.css] are [/static/**]
+2018-10-28 05:20:28.605 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/css/plug/animate.css] are {}
+2018-10-28 05:20:28.605 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/css/plug/animate.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.605 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/css/plug/animate.css] is: -1
+2018-10-28 05:20:28.605 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.606 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.616 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/css/plug/fileinput.min.css]
+2018-10-28 05:20:28.616 [http-bio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/css/plug/fileinput.min.css
+2018-10-28 05:20:28.616 [http-bio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/css/plug/fileinput.min.css]
+2018-10-28 05:20:28.616 [http-bio-80-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/css/plug/fileinput.min.css] are [/static/**]
+2018-10-28 05:20:28.616 [http-bio-80-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/css/plug/fileinput.min.css] are {}
+2018-10-28 05:20:28.616 [http-bio-80-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/css/plug/fileinput.min.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.616 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/css/plug/fileinput.min.css] is: -1
+2018-10-28 05:20:28.616 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.616 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.619 [http-bio-80-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/css/plug/bootstrap-table.min.css]
+2018-10-28 05:20:28.619 [http-bio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/css/plug/bootstrap-table.min.css
+2018-10-28 05:20:28.619 [http-bio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/css/plug/bootstrap-table.min.css]
+2018-10-28 05:20:28.619 [http-bio-80-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/css/plug/bootstrap-table.min.css] are [/static/**]
+2018-10-28 05:20:28.619 [http-bio-80-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/css/plug/bootstrap-table.min.css] are {}
+2018-10-28 05:20:28.619 [http-bio-80-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/css/plug/bootstrap-table.min.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.619 [http-bio-80-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/css/plug/bootstrap-table.min.css] is: -1
+2018-10-28 05:20:28.620 [http-bio-80-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.620 [http-bio-80-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.622 [http-bio-80-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/css/plug/bootstrapValidator.min.css]
+2018-10-28 05:20:28.623 [http-bio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/css/plug/bootstrapValidator.min.css
+2018-10-28 05:20:28.623 [http-bio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/css/plug/bootstrapValidator.min.css]
+2018-10-28 05:20:28.623 [http-bio-80-exec-6] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/css/plug/bootstrapValidator.min.css] are [/static/**]
+2018-10-28 05:20:28.623 [http-bio-80-exec-6] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/css/plug/bootstrapValidator.min.css] are {}
+2018-10-28 05:20:28.623 [http-bio-80-exec-6] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/css/plug/bootstrapValidator.min.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.623 [http-bio-80-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/css/plug/bootstrapValidator.min.css] is: -1
+2018-10-28 05:20:28.623 [http-bio-80-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.623 [http-bio-80-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.624 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/css/plug/bootstrap-maizi.css]
+2018-10-28 05:20:28.624 [http-bio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/css/plug/bootstrap-maizi.css
+2018-10-28 05:20:28.624 [http-bio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/css/plug/bootstrap-maizi.css]
+2018-10-28 05:20:28.624 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/css/plug/bootstrap-maizi.css] are [/static/**]
+2018-10-28 05:20:28.625 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/css/plug/bootstrap-maizi.css] are {}
+2018-10-28 05:20:28.625 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/css/plug/bootstrap-maizi.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.625 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/css/plug/bootstrap-maizi.css] is: -1
+2018-10-28 05:20:28.625 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.625 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.628 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.629 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.694 [http-bio-80-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/css/old/index1.css]
+2018-10-28 05:20:28.694 [http-bio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/css/old/index1.css
+2018-10-28 05:20:28.694 [http-bio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/css/old/index1.css]
+2018-10-28 05:20:28.694 [http-bio-80-exec-6] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/css/old/index1.css] are [/static/**]
+2018-10-28 05:20:28.694 [http-bio-80-exec-6] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/css/old/index1.css] are {}
+2018-10-28 05:20:28.694 [http-bio-80-exec-6] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/css/old/index1.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.694 [http-bio-80-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/css/old/index1.css] is: -1
+2018-10-28 05:20:28.695 [http-bio-80-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.695 [http-bio-80-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.699 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/plug/jquery.min.js]
+2018-10-28 05:20:28.699 [http-bio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/plug/jquery.min.js
+2018-10-28 05:20:28.699 [http-bio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/plug/jquery.min.js]
+2018-10-28 05:20:28.699 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/plug/jquery.min.js] are [/static/**]
+2018-10-28 05:20:28.699 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/plug/jquery.min.js] are {}
+2018-10-28 05:20:28.699 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/plug/jquery.min.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.699 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/plug/jquery.min.js] is: -1
+2018-10-28 05:20:28.703 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/plug/bootstrap.min.js]
+2018-10-28 05:20:28.703 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/plug/bootstrap.min.js
+2018-10-28 05:20:28.703 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/plug/bootstrap.min.js]
+2018-10-28 05:20:28.703 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/plug/bootstrap.min.js] are [/static/**]
+2018-10-28 05:20:28.703 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/plug/bootstrap.min.js] are {}
+2018-10-28 05:20:28.703 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/plug/bootstrap.min.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.703 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/plug/bootstrap.min.js] is: -1
+2018-10-28 05:20:28.706 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/plug/bootstrap-treeview.js]
+2018-10-28 05:20:28.707 [http-bio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/plug/bootstrap-treeview.js
+2018-10-28 05:20:28.707 [http-bio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/plug/bootstrap-treeview.js]
+2018-10-28 05:20:28.707 [http-bio-80-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/plug/bootstrap-treeview.js] are [/static/**]
+2018-10-28 05:20:28.707 [http-bio-80-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/plug/bootstrap-treeview.js] are {}
+2018-10-28 05:20:28.707 [http-bio-80-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/plug/bootstrap-treeview.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.707 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/plug/bootstrap-treeview.js] is: -1
+2018-10-28 05:20:28.711 [http-bio-80-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/plug/toastr.min.js]
+2018-10-28 05:20:28.711 [http-bio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/plug/toastr.min.js
+2018-10-28 05:20:28.711 [http-bio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/plug/toastr.min.js]
+2018-10-28 05:20:28.712 [http-bio-80-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/plug/toastr.min.js] are [/static/**]
+2018-10-28 05:20:28.712 [http-bio-80-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/plug/toastr.min.js] are {}
+2018-10-28 05:20:28.712 [http-bio-80-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/plug/toastr.min.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.712 [http-bio-80-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/plug/toastr.min.js] is: -1
+2018-10-28 05:20:28.712 [http-bio-80-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.712 [http-bio-80-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.714 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.714 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.715 [http-bio-80-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/plug/wangEditor.min.js]
+2018-10-28 05:20:28.715 [http-bio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/plug/wangEditor.min.js
+2018-10-28 05:20:28.715 [http-bio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/plug/wangEditor.min.js]
+2018-10-28 05:20:28.715 [http-bio-80-exec-6] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/plug/wangEditor.min.js] are [/static/**]
+2018-10-28 05:20:28.715 [http-bio-80-exec-6] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/plug/wangEditor.min.js] are {}
+2018-10-28 05:20:28.715 [http-bio-80-exec-6] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/plug/wangEditor.min.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.715 [http-bio-80-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/plug/wangEditor.min.js] is: -1
+2018-10-28 05:20:28.716 [http-bio-80-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.716 [http-bio-80-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.718 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/plug/Chart.js]
+2018-10-28 05:20:28.718 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/plug/Chart.js
+2018-10-28 05:20:28.718 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/plug/Chart.js]
+2018-10-28 05:20:28.718 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/plug/Chart.js] are [/static/**]
+2018-10-28 05:20:28.718 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/plug/Chart.js] are {}
+2018-10-28 05:20:28.718 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/plug/Chart.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.718 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/plug/Chart.js] is: -1
+2018-10-28 05:20:28.719 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.719 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.733 [http-bio-80-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/plug/bootstrap-dialog.min.js]
+2018-10-28 05:20:28.733 [http-bio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/plug/bootstrap-dialog.min.js
+2018-10-28 05:20:28.734 [http-bio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/plug/bootstrap-dialog.min.js]
+2018-10-28 05:20:28.734 [http-bio-80-exec-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/plug/bootstrap-dialog.min.js] are [/static/**]
+2018-10-28 05:20:28.734 [http-bio-80-exec-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/plug/bootstrap-dialog.min.js] are {}
+2018-10-28 05:20:28.734 [http-bio-80-exec-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/plug/bootstrap-dialog.min.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.734 [http-bio-80-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/plug/bootstrap-dialog.min.js] is: -1
+2018-10-28 05:20:28.735 [http-bio-80-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/plug/fileinput.min.js]
+2018-10-28 05:20:28.735 [http-bio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/plug/fileinput.min.js
+2018-10-28 05:20:28.735 [http-bio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/plug/fileinput.min.js]
+2018-10-28 05:20:28.735 [http-bio-80-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/plug/fileinput.min.js] are [/static/**]
+2018-10-28 05:20:28.735 [http-bio-80-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/plug/fileinput.min.js] are {}
+2018-10-28 05:20:28.735 [http-bio-80-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/plug/fileinput.min.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.735 [http-bio-80-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/plug/fileinput.min.js] is: -1
+2018-10-28 05:20:28.736 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/plug/fileinput_zh.js]
+2018-10-28 05:20:28.736 [http-bio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/plug/fileinput_zh.js
+2018-10-28 05:20:28.736 [http-bio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/plug/fileinput_zh.js]
+2018-10-28 05:20:28.736 [http-bio-80-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/plug/fileinput_zh.js] are [/static/**]
+2018-10-28 05:20:28.736 [http-bio-80-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/plug/fileinput_zh.js] are {}
+2018-10-28 05:20:28.736 [http-bio-80-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/plug/fileinput_zh.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.736 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/plug/fileinput_zh.js] is: -1
+2018-10-28 05:20:28.737 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.737 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.737 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.737 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.737 [http-bio-80-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.737 [http-bio-80-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.740 [http-bio-80-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/plug/bootstrap-table.min.js]
+2018-10-28 05:20:28.741 [http-bio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/plug/bootstrap-table.min.js
+2018-10-28 05:20:28.741 [http-bio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/plug/bootstrap-table.min.js]
+2018-10-28 05:20:28.741 [http-bio-80-exec-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/plug/bootstrap-table.min.js] are [/static/**]
+2018-10-28 05:20:28.742 [http-bio-80-exec-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/plug/bootstrap-table.min.js] are {}
+2018-10-28 05:20:28.742 [http-bio-80-exec-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/plug/bootstrap-table.min.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.742 [http-bio-80-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/plug/bootstrap-table.min.js] is: -1
+2018-10-28 05:20:28.741 [http-bio-80-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.742 [http-bio-80-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.746 [http-bio-80-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/plug/bootstrapValidator.min.js]
+2018-10-28 05:20:28.746 [http-bio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/plug/bootstrapValidator.min.js
+2018-10-28 05:20:28.747 [http-bio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/plug/bootstrapValidator.min.js]
+2018-10-28 05:20:28.747 [http-bio-80-exec-6] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/plug/bootstrapValidator.min.js] are [/static/**]
+2018-10-28 05:20:28.747 [http-bio-80-exec-6] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/plug/bootstrapValidator.min.js] are {}
+2018-10-28 05:20:28.747 [http-bio-80-exec-6] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/plug/bootstrapValidator.min.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.747 [http-bio-80-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/plug/bootstrapValidator.min.js] is: -1
+2018-10-28 05:20:28.748 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/plug/bootstrap-table-zh-CN.min.js]
+2018-10-28 05:20:28.748 [http-bio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/plug/bootstrap-table-zh-CN.min.js
+2018-10-28 05:20:28.748 [http-bio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/plug/bootstrap-table-zh-CN.min.js]
+2018-10-28 05:20:28.748 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/plug/bootstrap-table-zh-CN.min.js] are [/static/**]
+2018-10-28 05:20:28.748 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/plug/bootstrap-table-zh-CN.min.js] are {}
+2018-10-28 05:20:28.748 [http-bio-80-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/plug/bootstrap-table-zh-CN.min.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.748 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/plug/bootstrap-table-zh-CN.min.js] is: -1
+2018-10-28 05:20:28.748 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.748 [http-bio-80-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.749 [http-bio-80-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.749 [http-bio-80-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.749 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.749 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.749 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/plug/bootstrapValidator_zh_CN.js]
+2018-10-28 05:20:28.750 [http-bio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/plug/bootstrapValidator_zh_CN.js
+2018-10-28 05:20:28.750 [http-bio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/plug/bootstrapValidator_zh_CN.js]
+2018-10-28 05:20:28.750 [http-bio-80-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/plug/bootstrapValidator_zh_CN.js] are [/static/**]
+2018-10-28 05:20:28.750 [http-bio-80-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/plug/bootstrapValidator_zh_CN.js] are {}
+2018-10-28 05:20:28.750 [http-bio-80-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/plug/bootstrapValidator_zh_CN.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.750 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/plug/bootstrapValidator_zh_CN.js] is: -1
+2018-10-28 05:20:28.750 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.750 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.757 [http-bio-80-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/old/js.js]
+2018-10-28 05:20:28.757 [http-bio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/old/js.js
+2018-10-28 05:20:28.758 [http-bio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/old/js.js]
+2018-10-28 05:20:28.758 [http-bio-80-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/old/js.js] are [/static/**]
+2018-10-28 05:20:28.758 [http-bio-80-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/old/js.js] are {}
+2018-10-28 05:20:28.758 [http-bio-80-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/old/js.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.758 [http-bio-80-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/old/js.js] is: -1
+2018-10-28 05:20:28.758 [http-bio-80-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.758 [http-bio-80-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.759 [http-bio-80-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.759 [http-bio-80-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.760 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/js/old/index.js]
+2018-10-28 05:20:28.760 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/js/old/index.js
+2018-10-28 05:20:28.760 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/js/old/index.js]
+2018-10-28 05:20:28.760 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/js/old/index.js] are [/static/**]
+2018-10-28 05:20:28.760 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/js/old/index.js] are {}
+2018-10-28 05:20:28.760 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/js/old/index.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.760 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/js/old/index.js] is: -1
+2018-10-28 05:20:28.763 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.763 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.766 [http-bio-80-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.766 [http-bio-80-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.769 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/flower.jpg]
+2018-10-28 05:20:28.769 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/flower.jpg
+2018-10-28 05:20:28.770 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/flower.jpg]
+2018-10-28 05:20:28.770 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/flower.jpg] are [/static/**]
+2018-10-28 05:20:28.770 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/flower.jpg] are {}
+2018-10-28 05:20:28.770 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/flower.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.770 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/flower.jpg] is: -1
+2018-10-28 05:20:28.770 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.770 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.777 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/p01.jpg]
+2018-10-28 05:20:28.777 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/p01.jpg
+2018-10-28 05:20:28.777 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/p01.jpg]
+2018-10-28 05:20:28.777 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/p01.jpg] are [/static/**]
+2018-10-28 05:20:28.777 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/p01.jpg] are {}
+2018-10-28 05:20:28.777 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/p01.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.777 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/p01.jpg] is: -1
+2018-10-28 05:20:28.777 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.778 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.782 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/p02.jpg]
+2018-10-28 05:20:28.782 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/p02.jpg
+2018-10-28 05:20:28.782 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/p02.jpg]
+2018-10-28 05:20:28.782 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/p02.jpg] are [/static/**]
+2018-10-28 05:20:28.782 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/p02.jpg] are {}
+2018-10-28 05:20:28.782 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/p02.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.782 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/p02.jpg] is: -1
+2018-10-28 05:20:28.783 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.783 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.789 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/p03.jpg]
+2018-10-28 05:20:28.789 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/p03.jpg
+2018-10-28 05:20:28.789 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/p03.jpg]
+2018-10-28 05:20:28.789 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/p03.jpg] are [/static/**]
+2018-10-28 05:20:28.789 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/p03.jpg] are {}
+2018-10-28 05:20:28.789 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/p03.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.789 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/p03.jpg] is: -1
+2018-10-28 05:20:28.790 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.790 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.797 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/p04.jpg]
+2018-10-28 05:20:28.797 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/p04.jpg
+2018-10-28 05:20:28.797 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/p04.jpg]
+2018-10-28 05:20:28.797 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/p04.jpg] are [/static/**]
+2018-10-28 05:20:28.797 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/p04.jpg] are {}
+2018-10-28 05:20:28.797 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/p04.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.797 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/p04.jpg] is: -1
+2018-10-28 05:20:28.799 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.799 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.801 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/p05.jpg]
+2018-10-28 05:20:28.801 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/p05.jpg
+2018-10-28 05:20:28.802 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/p05.jpg]
+2018-10-28 05:20:28.802 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/p05.jpg] are [/static/**]
+2018-10-28 05:20:28.802 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/p05.jpg] are {}
+2018-10-28 05:20:28.802 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/p05.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.802 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/p05.jpg] is: -1
+2018-10-28 05:20:28.803 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.803 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.807 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/p06.jpg]
+2018-10-28 05:20:28.808 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/p06.jpg
+2018-10-28 05:20:28.808 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/p06.jpg]
+2018-10-28 05:20:28.808 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/p06.jpg] are [/static/**]
+2018-10-28 05:20:28.808 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/p06.jpg] are {}
+2018-10-28 05:20:28.808 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/p06.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.808 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/p06.jpg] is: -1
+2018-10-28 05:20:28.810 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.810 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.812 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/girl.jpg]
+2018-10-28 05:20:28.812 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/girl.jpg
+2018-10-28 05:20:28.813 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/girl.jpg]
+2018-10-28 05:20:28.813 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/girl.jpg] are [/static/**]
+2018-10-28 05:20:28.813 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/girl.jpg] are {}
+2018-10-28 05:20:28.813 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/girl.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.813 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/girl.jpg] is: -1
+2018-10-28 05:20:28.813 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.813 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.817 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/boy.jpg]
+2018-10-28 05:20:28.817 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/boy.jpg
+2018-10-28 05:20:28.817 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/boy.jpg]
+2018-10-28 05:20:28.817 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/boy.jpg] are [/static/**]
+2018-10-28 05:20:28.817 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/boy.jpg] are {}
+2018-10-28 05:20:28.817 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/boy.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.817 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/boy.jpg] is: -1
+2018-10-28 05:20:28.818 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.818 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.821 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/t01.jpg]
+2018-10-28 05:20:28.821 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/t01.jpg
+2018-10-28 05:20:28.822 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/t01.jpg]
+2018-10-28 05:20:28.822 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/t01.jpg] are [/static/**]
+2018-10-28 05:20:28.822 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/t01.jpg] are {}
+2018-10-28 05:20:28.822 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/t01.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.822 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/t01.jpg] is: -1
+2018-10-28 05:20:28.830 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.831 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.839 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/t02.jpg]
+2018-10-28 05:20:28.839 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/t02.jpg
+2018-10-28 05:20:28.839 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/t02.jpg]
+2018-10-28 05:20:28.839 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/t02.jpg] are [/static/**]
+2018-10-28 05:20:28.839 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/t02.jpg] are {}
+2018-10-28 05:20:28.839 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/t02.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.839 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/t02.jpg] is: -1
+2018-10-28 05:20:28.840 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.840 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.846 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/t03.jpg]
+2018-10-28 05:20:28.846 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/t03.jpg
+2018-10-28 05:20:28.846 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/t03.jpg]
+2018-10-28 05:20:28.846 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/t03.jpg] are [/static/**]
+2018-10-28 05:20:28.846 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/t03.jpg] are {}
+2018-10-28 05:20:28.846 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/t03.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.846 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/t03.jpg] is: -1
+2018-10-28 05:20:28.847 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.847 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.852 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/s6.jpg]
+2018-10-28 05:20:28.852 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/s6.jpg
+2018-10-28 05:20:28.852 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/s6.jpg]
+2018-10-28 05:20:28.853 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/s6.jpg] are [/static/**]
+2018-10-28 05:20:28.853 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/s6.jpg] are {}
+2018-10-28 05:20:28.853 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/s6.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.853 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/s6.jpg] is: -1
+2018-10-28 05:20:28.853 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.853 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.859 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/s7.jpg]
+2018-10-28 05:20:28.859 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/s7.jpg
+2018-10-28 05:20:28.859 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/s7.jpg]
+2018-10-28 05:20:28.859 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/s7.jpg] are [/static/**]
+2018-10-28 05:20:28.859 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/s7.jpg] are {}
+2018-10-28 05:20:28.859 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/s7.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.859 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/s7.jpg] is: -1
+2018-10-28 05:20:28.859 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.859 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.862 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/s8.jpg]
+2018-10-28 05:20:28.862 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/s8.jpg
+2018-10-28 05:20:28.863 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/s8.jpg]
+2018-10-28 05:20:28.863 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/s8.jpg] are [/static/**]
+2018-10-28 05:20:28.863 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/s8.jpg] are {}
+2018-10-28 05:20:28.863 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/s8.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.863 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/s8.jpg] is: -1
+2018-10-28 05:20:28.863 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:28.863 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:28.893 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/bg.jpg]
+2018-10-28 05:20:28.893 [http-bio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/bg.jpg
+2018-10-28 05:20:28.893 [http-bio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/bg.jpg]
+2018-10-28 05:20:28.893 [http-bio-80-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/bg.jpg] are [/static/**]
+2018-10-28 05:20:28.893 [http-bio-80-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/bg.jpg] are {}
+2018-10-28 05:20:28.893 [http-bio-80-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/bg.jpg] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:28.894 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/bg.jpg] is: -1
+2018-10-28 05:20:29.005 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/css/fonts/glyphicons-halflings-regular.woff2]
+2018-10-28 05:20:29.005 [http-bio-80-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/flower.png]
+2018-10-28 05:20:29.005 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/css/fonts/glyphicons-halflings-regular.woff2
+2018-10-28 05:20:29.005 [http-bio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/flower.png
+2018-10-28 05:20:29.005 [http-bio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/css/fonts/glyphicons-halflings-regular.woff2]
+2018-10-28 05:20:29.005 [http-bio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/flower.png]
+2018-10-28 05:20:29.005 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/css/fonts/glyphicons-halflings-regular.woff2] are [/static/**]
+2018-10-28 05:20:29.005 [http-bio-80-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/flower.png] are [/static/**]
+2018-10-28 05:20:29.005 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/css/fonts/glyphicons-halflings-regular.woff2] are {}
+2018-10-28 05:20:29.005 [http-bio-80-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/flower.png] are {}
+2018-10-28 05:20:29.005 [http-bio-80-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/css/fonts/glyphicons-halflings-regular.woff2] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:29.005 [http-bio-80-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/flower.png] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:29.005 [http-bio-80-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/flower.png] is: -1
+2018-10-28 05:20:29.005 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/css/fonts/glyphicons-halflings-regular.woff2] is: -1
+2018-10-28 05:20:29.006 [http-bio-80-exec-4] DEBUG org.springframework.web.cors.DefaultCorsProcessor -
+				Skip CORS processing, request is a same-origin one
+2018-10-28 05:20:29.006 [http-bio-80-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:29.006 [http-bio-80-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:29.011 [http-bio-80-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/love.png]
+2018-10-28 05:20:29.011 [http-bio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/love.png
+2018-10-28 05:20:29.012 [http-bio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/love.png]
+2018-10-28 05:20:29.012 [http-bio-80-exec-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/love.png] are [/static/**]
+2018-10-28 05:20:29.012 [http-bio-80-exec-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/love.png] are {}
+2018-10-28 05:20:29.012 [http-bio-80-exec-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/love.png] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:29.012 [http-bio-80-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/love.png] is: -1
+2018-10-28 05:20:29.015 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:29.015 [http-bio-80-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:29.017 [http-bio-80-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:29.017 [http-bio-80-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:29.021 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:29.021 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
+2018-10-28 05:20:29.041 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				DispatcherServlet with name 'loveTrace' processing GET request for [/static/images/old/xin.png]
+2018-10-28 05:20:29.041 [http-bio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Looking up handler method for path /static/images/old/xin.png
+2018-10-28 05:20:29.041 [http-bio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				Did not find handler method for [/static/images/old/xin.png]
+2018-10-28 05:20:29.041 [http-bio-80-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Matching patterns for request [/static/images/old/xin.png] are [/static/**]
+2018-10-28 05:20:29.041 [http-bio-80-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				URI Template variables for request [/static/images/old/xin.png] are {}
+2018-10-28 05:20:29.041 [http-bio-80-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping -
+				Mapping [/static/images/old/xin.png] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/static/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@39b4312d]]] and 1 interceptor
+2018-10-28 05:20:29.041 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Last-Modified value for [/static/images/old/xin.png] is: -1
+2018-10-28 05:20:29.041 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Null ModelAndView returned to DispatcherServlet with name 'loveTrace': assuming HandlerAdapter completed request handling
+2018-10-28 05:20:29.041 [http-bio-80-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet -
+				Successfully completed request
