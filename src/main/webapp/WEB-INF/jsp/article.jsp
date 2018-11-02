@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
 <title>慢生活</title>
-<link href="css/manwen.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/static/css/old/manwen.css" rel="stylesheet">
 <%@ include file="common/common_css.jsp"%>
 <%@ include file="common/common_js.jsp"%>
 <script src="${pageContext.request.contextPath}/static/js/old/js.js"></script>

@@ -1,6 +1,6 @@
 <!-- 此标签解决乱码问题 -->
 <%@page pageEncoding="UTF-8"%>
-<nav class="navbar navbar-default">
+<!-- <nav class="navbar navbar-default">
     <div class="container">
         <div class="navbar-header">
             <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -50,7 +50,7 @@
             </ul>
         </div>
     </div>
-</nav>
+</nav> -->
 
 <!-- <embed src="2.mp3" hidden="true" autostart="true" loop="true"> -->
 <!-- 导航栏 -->
