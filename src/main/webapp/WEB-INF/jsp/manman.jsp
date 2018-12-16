@@ -79,7 +79,7 @@
           <div class="ci"></div>
           <h2 class="title"><a href="#" target="_blank">听说你原来越喜欢我</a></h2>
           <ul class="textinfo">
-            <a href="#"><img src="${pageContext.request.contextPath}/static/images/girl.jpg"></a>
+            <a href="#"><img src="${pageContext.request.contextPath}/static/images/old/girl.jpg"></a>
             <p><a href="#">
             	5月6日我陪室友去安师玩，结果吃一半，你说闲，我就跑去陪你了！什么没化妆，都是那么美，最后和室友也都见了一面！他们也很喜欢你！晚上你说腰疼，真让我心疼，明天要去看医生哦，我会陪在你身边的！当然最重要的是，你说你越来越喜欢我了，哈哈哈哈哈哈哈哈，开心^_^
             </a></p>

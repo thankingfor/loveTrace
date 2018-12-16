@@ -4,7 +4,7 @@
 a:link, a:visited { text-decoration: none; }
 ul, li { list-style-type: none }
 img { border: 0; }
-body { font-size: 12px; background: #226039 url(../../images/old/bg-girl.jpg) center 0 scroll no-repeat; color: #5d5d5d; }
+body { width: 1600px ; font-size: 12px; background: #226039 url(../../images/old/bg-girl.jpg) center 0 scroll no-repeat; color: #5d5d5d; }
 .blank { height: 5px; overflow: hidden; width: 100%; margin: auto; clear: both }
 /* header */
 header { width: 100%; margin: auto; border-bottom: #3c7a48 8px solid }

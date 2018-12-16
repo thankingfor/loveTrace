@@ -10,7 +10,7 @@
 <%@ include file="common/common_js.jsp"%>
 <link href="${pageContext.request.contextPath}/static/css/old/meitu.css" rel="stylesheet">
 <script src="${pageContext.request.contextPath}/static/js/old/js.js"></script>
-<script src="${pageContext.request.contextPath}/static/js/old/meitu.js"></script>
+<%-- <script src="${pageContext.request.contextPath}/static/js/old/meitu.js"></script> --%>
 <script src="${pageContext.request.contextPath}/static/js/old/scrollReveal.js"></script>
 <script>
 if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
