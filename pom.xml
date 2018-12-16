@@ -195,7 +195,7 @@
 				<configuration>
 					<path>/</path>
 					<port>80</port>
-					<url>http://47.95.196.58:8888/manager/text</url>
+					<url>http://47.95.196.58:8080/manager/text</url>
 					<username>tomcat</username>
 					<password>tomcat</password>
 				</configuration>
