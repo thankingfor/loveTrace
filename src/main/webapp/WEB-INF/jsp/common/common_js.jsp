@@ -21,6 +21,9 @@
 <!-- 表格的插件 -->
 <script src="${pageContext.request.contextPath}/static/js/plug/bootstrap-table.min.js" ></script>
 <script src="${pageContext.request.contextPath}/static/js/plug/bootstrap-table-zh-CN.min.js" ></script>
+<!-- 时间选择插件 -->
+<script src="${pageContext.request.contextPath}/static/js/plug/bootstrap-datetimepicker.min.js" ></script>
+<script src="${pageContext.request.contextPath}/static/js/plug/bootstrap-datetimepicker.zh-CN.js" ></script>
 <!-- 表单验证插件 -->
 <script src="${pageContext.request.contextPath}/static/js/plug/bootstrapValidator.min.js" ></script>
 <script src="${pageContext.request.contextPath}/static/js/plug/bootstrapValidator_zh_CN.js" ></script>
@@ -29,6 +32,8 @@
 	//富文本编辑器
 	var E = window.wangEditor;
 	var editor = new E('#editor');
+	var conPath = "${pageContext.request.contextPath}";
+	var page404 ="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1545223790324&di=e7a156307cfbb755193f92bee7c9ccde&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01565959e6bcfda80121bea5beef4c.jpg%401280w_1l_2o_100sh.jpg";
 	//消息件的配置
     toastr.options = {
         closeButton: false,  
@@ -63,6 +68,28 @@
     			insert(imgUrls[i]);
     		}
     	}
+    	editor.customConfig.menus = [
+    	    'head',  // 标题
+    	    /* 'bold',  // 粗体 */
+    	    'fontSize',  // 字号
+    	    'fontName',  // 字体
+    	    /* 'italic',  // 斜体
+    	    'underline',  // 下划线
+    	    'strikeThrough',  // 删除线 */
+    	    'foreColor',  // 文字颜色
+    	    /* 'backColor',  // 背景颜色 */
+    	    'link',  // 插入链接
+    	  /*   'list',  // 列表
+    	    'justify',  // 对齐方式 */
+    	   /*  'quote',  // 引用
+    	    'emoticon',  // 表情 */
+    	    'image',  // 插入图片
+    	  /*   'table',  // 表格
+    	    'video',  // 插入视频
+    	    'code',  // 插入代码 */
+    	    'undo',  // 撤销
+    	    'redo'  // 重复
+        ]
         editor.create();
     }
     /**
@@ -73,7 +100,7 @@
     	$.ajax({
 	        type:"post",
 	        dataType:"json",
-	        url:"/upload",
+	        url : conPath+"/upload",
 	        async:false,//异步  true 同步
 	        cache: false,//缓存 false的话会在url后面加一个时间缀，让它跑到服务器获取结果。
 	        contentType: false,//上传的时候必须要
@@ -89,7 +116,7 @@
     }
     
     /**
-    *初始化fileinput控件（第一次初始化）
+    *	初始化fileinput控件（第一次初始化）
      * @param ctrlName id
      * @param uploadUrl 路径
      * @returns
@@ -105,5 +132,35 @@
             browseClass: "btn btn-primary", //按钮样式             
             previewFileIcon: "<i class='glyphicon glyphicon-king'></i>", 
         });
+    }
+    
+    /**
+    * 	得到一个图片 
+    *	null "" page404
+    *	一个就返回过去
+    *	多个就返回第一个
+    */
+    function getOneImage(path){
+    	if(path == "" ||path == null){
+    		return page404;
+    	} else {
+    		var start = path.indexOf(",",0);
+    		if(start != -1){
+    			return path.substring(0,start);
+    		}
+    		return path;
+    	}
+    }
+    
+    /**
+    *	null "" page404
+    *	返回数组
+    */
+    function getImages(path){
+    	if(path == "" ||path == null){
+    		return page404.split(",");
+    	} else {
+    		return path.split(",");
+    	}
     }
 </script>

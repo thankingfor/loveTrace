@@ -28,7 +28,7 @@ p { word-wrap: break-word }
 ul, ol { list-style: none; }
 a { color: #a6a6a6; text-decoration: none; transition: All 1s ease; -webkit-transition: All 1s ease; -moz-transition: All 1s ease; -ms-transition: All 1s ease; -o-transition: All 1s ease; }
 a:hover { color: #fff; }
-.blogs {background:#548B54; width: 900px; margin: 0 auto 20px;height: 1150px;border-radius: 50px; box-shadow: 0 5px 9px 0 rgba(0,0,0,0.3);}
+.blogs {background:#548B54; width: 900px; margin: 0 auto 20px;height: 1200px;border-radius: 50px; box-shadow: 0 5px 9px 0 rgba(0,0,0,0.3);}
 .bloglist { width: 666px; float: left; margin-left: 120px;margin-top: 30px; }
 .bloglist>li { border-right: #111 2px solid; padding: 20px 0; }
 .arrow_box { background: #222; box-shadow: 0px 1px 0px rgba(255,255,255,.1), inset 0px 1px 1px rgba(0,0,0,.7); width: 630px; color: #b9b9b9; border-radius: 6px; position: relative }

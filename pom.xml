@@ -173,6 +173,12 @@
 		<artifactId>commons-fileupload</artifactId>
 		<version>${commons-fileupload.version}</version>
 	</dependency>
+	<!-- 图片服务器管理 -->
+	<dependency>
+		<groupId>fastdfs_client</groupId>
+		<artifactId>fastdfs_client</artifactId>
+		<version>1.25</version>
+	</dependency>
   </dependencies>
   
   <!-- 配置tomcat插件 -->

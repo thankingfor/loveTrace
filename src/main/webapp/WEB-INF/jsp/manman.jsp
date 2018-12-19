@@ -1,4 +1,5 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,83 +13,49 @@
 <script src="${pageContext.request.contextPath}/static/js/old/manman.js"></script>
 </head>
 <body>
+${pageInfo }
 <%@ include file="common/common_header.jsp"%>
+
 
 <!-- 时间轴 -->
 <div class="rong">
   <div class="blogs" style="background:#548B54;">
     <ul class="bloglist">
-    	<li>
+    <c:forEach var="content" items="${pageInfo.list }">
+    <li>
         <div class="arrow_box">
           <div class="ti"></div>
           <div class="ci"></div>
-          <h2 class="title"><a href="#" target="_blank">花会枯萎,但爱永不凋零</a></h2>
+          <h2 class="title"><a href="#" target="_blank">${content.title }</a></h2>
           <ul class="textinfo">
-            <a href="#"><img src="${pageContext.request.contextPath}/static/images/phone2/ysh.png"></a>
-            <p><a href="#">
-            	趁着520向你告白<br/>
-            	你说你喜欢花<br/>
-            	但你你那么善良<br/>
-            	鲜花总会枯萎怕你伤心<br/>
-            	送你永生花<br/>
-            	请接受我的心意<br/>
-            </a></p>
+            <a href="${pageContext.request.contextPath}/content/${content.id }">
+            <%-- <c:if test="${content.onePage}">
+            	<img src="${content.onePage}">
+            </c:if> --%>
+            <c:if test="${not empty content.onePage}">
+            	<img src="${content.onePage}">
+            </c:if>
+            <p>${content.content }</p></a>
           </ul>
-            <span style="color: red; float: right;margin-top: -20px;padding-right: 20px;">2018-5-13</span>
+            <span style="color: red; float: right;margin-top: -20px;padding-right: 20px;">${content.datetime }</span>
         </div>
       </li>
-      
-       <li>
-        <div class="arrow_box">
-          <div class="ti"></div>
-          <div class="ci"></div>
-          <h2 class="title"><a href="#" target="_blank">这是我送你的小熊</a></h2>
-          <ul class="textinfo">
-            <a href="#"><img src="${pageContext.request.contextPath}/static/images/phone2/xx.png"></a>
-            <p><a href="#"> 
-            	你想我的时候可以抱抱它<br/>
-            	你生气的时候可以用小拳拳锤它<br/>
-            	你总抱怨小熊太大占你床的位置<br/>
-            	而你却又是那么喜欢它<br/>
-            </a></p>
-          </ul>
-            <span style="color: red; float: right;margin-top: -20px;padding-right: 20px;">2018-5-14</span>
-        </div>
-
-      </li>
-      
-      
-    	<li>
-        <div class="arrow_box">
-          <div class="ti"></div>
-          <div class="ci"></div>
-          <h2 class="title"><a href="#" target="_blank">第一次看电影</a></h2>
-          <ul class="textinfo">
-            <a href="#"><img src="${pageContext.request.contextPath}/static/images/phone2/dy.png"></a>
-            <p><a href="#"> 
-            	今天早上7点醒来就起床了，着急着见你，和你一起吃了早饭，并且走到了华强去看电影，我喂你吃爆米花，你说委屈死了，不好吃还不好意思拒绝我，你啊~~那行吧，以后看电影就不买了！爆米花好吃么？你说不好吃就不好吃咯，最后还在学校的长椅上聊了好久好久，并且警告我，不要轻易拿走你的初吻，那行吧，勉强同意！答应你给你和室友买西瓜的,随后6点半去找你，送了西瓜给你给你室友，瞬间都被我收买了，随后你说请我吃饭，结果你手机没电，哈哈哈哈哈哈最后和你在操场上玩的超开心，聊天聊了很投机，遇见你真幸运，很喜欢在操场上躺着，舒服！
-            </a></p>
-          </ul>
-            <span style="color: red; float: right;margin-top: -20px;padding-right: 20px;">2018-5-13</span>
-        </div>
-      </li>
-     
-      <li>
-        <div class="arrow_box">
-          <div class="ti"></div>
-          <div class="ci"></div>
-          <h2 class="title"><a href="#" target="_blank">听说你原来越喜欢我</a></h2>
-          <ul class="textinfo">
-            <a href="#"><img src="${pageContext.request.contextPath}/static/images/girl.jpg"></a>
-            <p><a href="#">
-            	5月6日我陪室友去安师玩，结果吃一半，你说闲，我就跑去陪你了！什么没化妆，都是那么美，最后和室友也都见了一面！他们也很喜欢你！晚上你说腰疼，真让我心疼，明天要去看医生哦，我会陪在你身边的！当然最重要的是，你说你越来越喜欢我了，哈哈哈哈哈哈哈哈，开心^_^
-            </a></p>
-          </ul>
-						<span style="color: red; float: right;margin-top: -20px;padding-right: 20px;">2018-5-6</span>
-        </div>
-      </li>
-
+    </c:forEach>
     </ul>
+    <nav class="pull-right">
+    <ul class="pagination">
+    	<%-- <li>每页的数量:${pageInfo.pageSize }</li> --%>
+    	<%-- <li>总记录数:${pageInfo.total }</li> --%>
+    	<%-- <li><a onclick="turnTo(${pageInfo.pageNum })" class="disabled">当前：${pageInfo.pageNum }</a></li> --%>
+      	<%-- <li><a onclick="turnTo(${pageInfo.pages })" class="disabled">总共：${pageInfo.pages }</a></li> --%>
+        <li><a onclick="turnToUp(${pageInfo.pageNum })" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+      	<c:forEach items="${pageInfo.navigatepageNums}" var="page" varStatus="varStatus">
+			<li><a onclick="turnTo(${page })" class="disabled">${page }</a></li>
+		</c:forEach>
+        <li><a onclick="turnToDown(${pageInfo.pageNum },${pageInfo.pages })"><span aria-hidden="true">&raquo;</span></a></li>
+        
+    </ul>
+</nav>
   </div>
 </div>
 

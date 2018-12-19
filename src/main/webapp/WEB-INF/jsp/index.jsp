@@ -11,8 +11,8 @@
 <script src="${pageContext.request.contextPath}/static/js/old/index.js"></script>
 </head>
 <body>
+<%@ include file="common/manager_header.jsp"%>
 <%@ include file="common/common_header.jsp"%>
-
 <div class ="rong">
 <div class="photowall">
   <ul class="wall_a">
