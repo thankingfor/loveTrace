@@ -163,4 +163,35 @@
     		return path.split(",");
     	}
     }
+    /**
+     * 上一页
+     * @returns
+     */
+    function turnToUp(page,path){
+    	if(page >1){
+    		turnTo(page - 1,path);
+    	}else{
+    		turnTo(1,path);
+    	}
+    }
+
+    /**
+     * 下一页
+     * @returns
+     */
+    function turnToDown(page,totalPage,path){
+    	if(page < totalPage){
+    		turnTo(page + 1,path);
+    	}else{
+    		turnTo(totalPage,path);
+    	}
+    }
+    /**
+     * 跳转某一页数
+     * @param page
+     * @returns
+     */
+    function turnTo(rows,page,path) {
+    	window.location.href = conPath+path+"?page="+page+"&rows="+rows;
+    }
 </script>

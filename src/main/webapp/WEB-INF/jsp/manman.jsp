@@ -35,7 +35,7 @@ ${pageInfo }
             <c:if test="${not empty content.onePage}">
             	<img src="${content.onePage}">
             </c:if>
-            <p>${content.content }</p></a>
+            <p>${content.fontContent }</p></a>
           </ul>
             <span style="color: red; float: right;margin-top: -20px;padding-right: 20px;">${content.datetime }</span>
         </div>
@@ -44,15 +44,11 @@ ${pageInfo }
     </ul>
     <nav class="pull-right">
     <ul class="pagination">
-    	<%-- <li>每页的数量:${pageInfo.pageSize }</li> --%>
-    	<%-- <li>总记录数:${pageInfo.total }</li> --%>
-    	<%-- <li><a onclick="turnTo(${pageInfo.pageNum })" class="disabled">当前：${pageInfo.pageNum }</a></li> --%>
-      	<%-- <li><a onclick="turnTo(${pageInfo.pages })" class="disabled">总共：${pageInfo.pages }</a></li> --%>
-        <li><a onclick="turnToUp(${pageInfo.pageNum })" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+        <li><a onclick="turnToUp(${pageInfo.pageNum },'/content/manman')" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
       	<c:forEach items="${pageInfo.navigatepageNums}" var="page" varStatus="varStatus">
-			<li><a onclick="turnTo(${page })" class="disabled">${page }</a></li>
+			<li><a onclick="turnTo(4,${page },'/content/manman')" class="disabled">${page }</a></li>
 		</c:forEach>
-        <li><a onclick="turnToDown(${pageInfo.pageNum },${pageInfo.pages })"><span aria-hidden="true">&raquo;</span></a></li>
+        <li><a onclick="turnToDown(${pageInfo.pageNum },${pageInfo.pages },'/content/manman')"><span aria-hidden="true">&raquo;</span></a></li>
         
     </ul>
 </nav>

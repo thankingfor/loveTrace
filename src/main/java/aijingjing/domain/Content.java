@@ -7,6 +7,10 @@ public class Content {
 	private String img;
 	private String datetime;
 	private Integer state;
+	public String getFontContent() {
+		String con = content.replaceAll("[^\u4E00-\u9FA5]", "");
+		return con;
+	}
 	public String getOnePage() {
 		String[] s = img.split(",");
 		if(s==null) {

@@ -11,7 +11,7 @@
 	<select id="select" resultType="aijingjing.domain.Content">
 		select * from content 
 		where (title like #{sel} or content like #{sel} or datetime like #{sel}) and state = 0
-		order by datetime asc
+		order by STR_TO_DATE(datetime,'%Y-%m-%d') DESC
 	</select>
 	
 	<!-- int insert(Content content); -->
