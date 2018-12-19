@@ -201,9 +201,9 @@
 				<configuration>
 					<path>/</path>
 					<port>80</port>
-					<url>http://47.95.196.58:8088/manager/text</url>
-					<username>tomcat8</username>
-					<password>tomcat8</password>
+					<url>http://47.95.196.58:8080/manager/text</url>
+					<username>tomcat</username>
+					<password>tomcat</password>
 				</configuration>
 			</plugin>
 		</plugins>
