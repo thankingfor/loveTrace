@@ -1,16 +1,7 @@
 package aijingjing.controller;
 
-import java.util.List;
-
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-
-import com.github.pagehelper.PageHelper;
-import com.github.pagehelper.PageInfo;
-
-import aijingjing.domain.Content;
 
 @Controller
 public class PathController {
@@ -19,7 +10,7 @@ public class PathController {
 	public String show(@PathVariable String path) {
 		return path;
 	}*/
-	@RequestMapping(value= {"/","index"})
+	@RequestMapping(value= {"/","/index"})
 	public String index() {
 		return "index";
 	}

@@ -13,7 +13,6 @@
 <script src="${pageContext.request.contextPath}/static/js/old/manman.js"></script>
 </head>
 <body>
-${pageInfo }
 <%@ include file="common/common_header.jsp"%>
 
 
@@ -44,11 +43,11 @@ ${pageInfo }
     </ul>
     <nav class="pull-right">
     <ul class="pagination">
-        <li><a onclick="turnToUp(${pageInfo.pageNum },'/content/manman')" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+        <li><a onclick="turnToUp(4,${pageInfo.pageNum },'/content/manman')" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
       	<c:forEach items="${pageInfo.navigatepageNums}" var="page" varStatus="varStatus">
 			<li><a onclick="turnTo(4,${page },'/content/manman')" class="disabled">${page }</a></li>
 		</c:forEach>
-        <li><a onclick="turnToDown(${pageInfo.pageNum },${pageInfo.pages },'/content/manman')"><span aria-hidden="true">&raquo;</span></a></li>
+        <li><a onclick="turnToDown(4,${pageInfo.pageNum },${pageInfo.pages },'/content/manman')"><span aria-hidden="true">&raquo;</span></a></li>
         
     </ul>
 </nav>

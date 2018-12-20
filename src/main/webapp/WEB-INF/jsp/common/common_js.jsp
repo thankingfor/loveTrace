@@ -103,7 +103,7 @@
 	        url : conPath+"/upload",
 	        async:false,//异步  true 同步
 	        cache: false,//缓存 false的话会在url后面加一个时间缀，让它跑到服务器获取结果。
-	        contentType: false,//上传的时候必须要
+	        contentType: false,//上传的时候必须要 
             processData: false,
 	        data:form,
 	        success:function(result){  
@@ -163,15 +163,45 @@
     		return path.split(",");
     	}
     }
+    
+    /**
+     *	保留中文
+     * @returns
+     */
+    function getChinese(str){
+    	if(str == null || str ==""){
+    		return "";
+    	}
+    	var reg = /[\u4e00-\u9fa5]/g;
+	  	if(str.match(reg) != null && str.match(reg)!=null){
+	  		str.match(reg).join("");
+	  		return str;
+	  	}else {
+	  		return "";
+	  	}
+    }
+    
+    /**
+     *	去除中文
+     * @returns
+     */
+    function getNoChinese(str){
+    	if(str == null || str ==""){
+    		return "";
+    	}
+    	var reg = /[\u4e00-\u9fa5]/g;
+	  	return str.replace(reg, "");
+    }
+    
     /**
      * 上一页
      * @returns
      */
-    function turnToUp(page,path){
+    function turnToUp(rows,page,path){
     	if(page >1){
-    		turnTo(page - 1,path);
+    		turnTo(rows,page - 1,path);
     	}else{
-    		turnTo(1,path);
+    		turnTo(rows,1,path);
     	}
     }
 
@@ -179,11 +209,11 @@
      * 下一页
      * @returns
      */
-    function turnToDown(page,totalPage,path){
+    function turnToDown(rows,page,totalPage,path){
     	if(page < totalPage){
-    		turnTo(page + 1,path);
+    		turnTo(rows,page + 1,path);
     	}else{
-    		turnTo(totalPage,path);
+    		turnTo(rows,totalPage,path);
     	}
     }
     /**

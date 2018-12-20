@@ -8,7 +8,7 @@
 <title>数据维护-商品详情</title>
 <%@ include file="../common/common_css.jsp"%>
 <%@ include file="../common/common_js.jsp"%>
-<script src="${pageContext.request.contextPath}/static/js/content/content_list.js"></script>
+<script src="${pageContext.request.contextPath}/static/js/story/story_list.js"></script>
 </head>
 <body>
 <!-- 导航栏 -->
@@ -18,17 +18,17 @@
     <div class="row">
         <div class="col-md-2">
             <div class="list-group">
-                <a href="#" class="list-group-item active">内容信息</a>
-                <a href="${pageContext.request.contextPath}/content/showAdd" role="button"  class="list-group-item">添加内容</a>
-                <a class="list-group-item" onclick="showEdit()">内容修改</a>
-                <input id="sel" type="text" class="form-control" value="" placeholder="搜索内容">
-                <a class="list-group-item" onclick="selectList()">内容搜索</a>
-                <a class="list-group-item" onclick="selectDel()">内容删除</a>
+                <a href="#" class="list-group-item active">相册信息</a>
+                <a href="${pageContext.request.contextPath}/story/showAdd" role="button"  class="list-group-item">添加相册</a>
+                <a class="list-group-item" onclick="showEdit()">相册修改</a>
+                <input id="sel" type="text" class="form-control" value="" placeholder="搜索相册">
+                <a class="list-group-item" onclick="selectList()">相册搜索</a>
+                <a class="list-group-item" onclick="selectDel()">相册删除</a>
             </div>
         </div>
         <div class="col-md-10">
             <div class="page-header">
-                <h1>商品管理</h1>
+                <h1>相册管理</h1>
             </div>
             <div class="page-body">
             	<table id="table"></table>

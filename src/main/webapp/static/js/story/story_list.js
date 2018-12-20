@@ -8,10 +8,11 @@ $(function () {
  */
 function showEdit(){
 	var rows = $("#table").bootstrapTable("getSelections");
-	if(JSON.stringify(rows) == "[]"){
+	if(rows.length!=1){
 		toastr.info("请选择至少一条数据！！！");
 		return ;
 	}
+	window.location.href=conPath+"/story/showEdit/"+rows[0].id;
 }
 
 /**
@@ -59,7 +60,7 @@ function selectList(){
  */
 function tableshow(){
 	 $('#table').bootstrapTable({  
-		 url: conPath+'/content/list/all',  
+		 url: conPath+'/story/list/all',  
 		 method: 'get',
 		 dataType: 'json',
 		 contentType: "application/x-www-form-urlencoded",
@@ -86,16 +87,16 @@ function tableshow(){
             align: 'center',
             valign: 'middle'
           },{
-            title: '标题',
-            field: 'title',
+            title: '名称',
+            field: 'name',
             align: 'center',
             valign: 'middle',
             formatter:function(value, row, index){
             	return value.substring(0,10);
             }
           },{
-	          title: '内容',
-	          field: 'content',
+	          title: '文章',
+	          field: 'article',
 	          align: 'center',
 	          valign: 'middle',
 	          formatter:function(value, row, index){
@@ -103,13 +104,17 @@ function tableshow(){
               }
           },{
             title: '图片',
-            field: 'img',
+            field: 'photos',
             align: 'center',
             valign: 'middle',
             formatter:function(value,row,index){
-            	var image = getOneImage(value);
-                var s = '<img style="width:70;height:30px;"  src='+image+' />';
-                return s;
+            	if(row.list.length > 0){
+            		return '<img style="width:70;height:30px;"  src='+row.list[0].path+' />';
+            	}else{
+            		var image = getOneImage(null)
+	                var s = '<img style="width:70;height:30px;"  src='+image+' />';
+	                return s;
+            	}
             }
           },{
               title: '时间',
@@ -127,7 +132,7 @@ function tableshow(){
               align: 'center',
               valign: 'middle',
               formatter:function(value,row,index){
-                  var btn = '<a href='+conPath+'/content/'+row.id+' class="btn btn-default" >查看</a>';
+                  var btn = '<a href='+conPath+'/story/'+row.id+' class="btn btn-default" >查看</a>';
                   return btn;
               }
           }]   

@@ -60,7 +60,7 @@ function addContent() {
 	$.ajax({
         type:"post",
         dataType:"json",
-        url:conPath+"/content/insert",
+        url:conPath+"/story/insert",
         async:false,//异步  true 同步
         data:$('#addForm').serialize(),
         success:function(result){  
@@ -77,7 +77,7 @@ function addContent() {
  */
 function selectPic(){
 	$('#filePicture').fileinput('upload'); //触发插件开始上传。
-	//异步上传返回结果处理 多个图片每次独立回调
+	//异步上传返回结果处理 多个图片每次独立回调 fileuploaded filebatchuploadsuccess
 	$("#filePicture").on("fileuploaded", function (event, data, previewId, index) {
 		//alert(JSON.stringify(event));alert(JSON.stringify(data));alert(JSON.stringify(previewId));alert(JSON.stringify(index));
 		var imgUrls = data.response.urls;

@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -8,12 +9,15 @@
 <title>数据维护-内容详情-内容添加</title>
 <%@ include file="../common/common_css.jsp"%>
 <%@ include file="../common/common_js.jsp"%>
-<script src="${pageContext.request.contextPath}/static/js/content/content_add.js"></script>
+<script src="${pageContext.request.contextPath}/static/js/story/story_edit.js"></script>
+<script type="text/javascript">
+var datetime = "${story.datetime }";
+var article = "${story.article }";
+</script>
 </head>
 <body>
 <!-- 导航栏 -->
 <%@ include file="../common/manager_header.jsp"%>
-
 
 <!-- 内容 -->
 <div class="container">
@@ -21,13 +25,13 @@
         <div class="col-md-1"></div>
         <div class="col-md-10">
             <div class="page-header" style="text-align:center;">
-                <h1>内容添加</h1>
+                <h1>相册修改</h1>
             </div>
             <div class="page-body">
                 <form id="addForm">
                     <div class="form-group">
-                        <label for="addname">内容标题</label>
-                        <input type="text" id="addFormTitle" name="title" class="form-control" placeholder="请输入内容标题" required data-bv-notempty-message="不能为空">
+                        <label for="addname">相册名称</label>
+                        <input type="text" id="addFormTitle" name="name" value="${story.name }" class="form-control" placeholder="请输入相册名字" required data-bv-notempty-message="不能为空">
                     </div>
                     <div class="form-group">
 		                <div class="input-group date col-md-4" >
@@ -37,14 +41,21 @@
 		            </div>
                     <div class="form-group">
                     	<div id="addFormPicName">
-                    		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#selectPicModal">添加图片</button>
+                    		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#selectPicModal">添加故事图片</button>
+                    		<c:forEach items="${story.list }" var="photo">
+                    			<img src='${photo.path }' style='height: 50px;width: 70px;'>
+                    		</c:forEach>
                     	</div>
-                        <input type="hidden" id="addFormPic" name="img" class="form-control">
+                        <input type="hidden" id="addFormPic" name="images" value="${story.paths }" class="form-control">
                     </div>
-                    <div id="editor"></div>
-                    <input type="hidden" id="addFormContent" name="content">
+                    <div class="form-group">
+                        <label for="addname">相册的故事</label>
+                        <div id="editor"></div>
+                    	<input type="hidden" id="addFormContent" value="" name="article">
+                    </div>
+                    
 					<div class="page-footer" style="text-align:center;margin-top: 50px;margin-bottom: 50px;">
-						<button type="button" class="btn btn-success" onclick="addContent()" style="height: 40px;width: 140px;">保存</button>
+						<button type="button" class="btn btn-success" onclick="addContent()" style="height: 40px;width: 140px;">修改</button>
 		            </div>
                 </form>
             </div>

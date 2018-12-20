@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="aijingjing.mapper.StoryMapper" >
+
+	<!-- Story selectById(Integer id); -->
+	<select id="selectById" resultType="aijingjing.domain.Story">
+		select * from story where id = #{id}
+	</select>
+
+	<!-- void delete(int i); -->
+	<update id="delete">
+		update story set state = 1 where id = #{id}
+	</update>
+
+	<!-- List<Story> select(String string); -->
+	<select id="select" resultType="aijingjing.domain.Story">
+		select * from story 
+		where (name like #{sel} or article like #{sel} or datetime like #{sel}) and state = 0
+		order by STR_TO_DATE(datetime,'%Y-%m-%d') DESC
+	</select>
+
+	<!-- int insert(Story story); -->
+	<insert id="insert">
+	  	insert into story (name,photos,article,datetime)
+	  	values 
+	  	(#{name},#{photos},#{article},#{datetime})
+	</insert>
+	
+	<!-- int edit(Stroy story); -->
+	<update id="edit">
+		update story 
+		<set>
+			<if test="name != null">name=#{name},</if>
+			<if test="datetime != null">datetime=#{datetime},</if>
+			<if test="article != null">article=#{article},</if>
+			<if test="state != null">state=#{state},</if>
+			<if test="photos != null">photos=#{photos}</if>
+		</set>
+		where id = #{id}
+	</update>
+</mapper>
