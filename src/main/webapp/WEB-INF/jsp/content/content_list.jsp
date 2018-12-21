@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1 , user-scalable=no">
-<title>数据维护-商品详情</title>
+<title>内容管理</title>
 <%@ include file="../common/common_css.jsp"%>
 <%@ include file="../common/common_js.jsp"%>
 <script src="${pageContext.request.contextPath}/static/js/content/content_list.js"></script>

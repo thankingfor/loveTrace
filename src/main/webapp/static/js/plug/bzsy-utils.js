@@ -1,4 +1,16 @@
 
+/**
+ * 用a b 返回 a,b
+ * @param a 新添加的
+ * @param b 源字符串
+ * @returns 字符串
+ */
+function getStrByDouHao(a,b){
+	if(b == null || b ==""){
+		return a;
+	}
+	return b+","+a;
+}
 
 /**
  * 为了解决表单序列话拼串

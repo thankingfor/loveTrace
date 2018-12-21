@@ -1,6 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="aijingjing.mapper.PhotoMapper" >
+
+	<!-- int editPhotos(Photo photo); -->
+	<update id="editPhotos">
+  		update photo 
+			<set>
+				<if test="datetime != null">datetime=#{datetime},</if>
+				<if test="name != null">`name`=#{name},</if>
+				<if test="story != null">`story`=#{story},</if>
+				<if test="state != null">state=#{state},</if>
+			</set>
+			where id = #{id}
+	  </update>
+	  
+  <!-- int editPhotos(@Param(value="photo")Photo photo,@Param(value="id") String[] idArray); -->
+  <!-- 多图片一起修改 -->
+<!--   <update id="editPhotos">
+  	update photo 
+		<set>
+			<if test="datetime != null">datetime=#{photo.datetime},</if>
+			<if test="name != null">`name`=#{photo.name},</if>
+			<if test="story != null">`story`=#{photo.story},</if>
+			<if test="state != null">state=#{photo.state},</if>
+		</set>
+		where id in 
+		<foreach collection="array" item="id" index="index"
+        	open="(" close=")" separator=",">
+        	#{id}
+    	</foreach>
+  </update> -->
+  
+  <!-- List<Photo> getPhotoList(String[] idArray); -->
+  <select id="getPhotoList" resultType="aijingjing.domain.Photo">
+  	select * from photo 
+  	where id in 
+  	<foreach collection="array" item="id" index="index"
+        open="(" close=")" separator=",">
+        #{id}
+    </foreach>
+  </select>
+  
+  <!-- List<Photo> select(String param); -->
+  <select id="select" resultType="aijingjing.domain.Photo">
+  	select * from photo 
+	where name like #{param} or 'story' like #{param} or datetime like #{param}
+	order by STR_TO_DATE(datetime,'%Y-%m-%d') DESC
+  </select>
   
   <!-- List<Photo> selectByIds(String[] ids); -->
   <select id="selectByIds" resultType="aijingjing.domain.Photo">
@@ -21,10 +67,6 @@
   
   <!-- int insertCallbackId(Photo photo); -->
   <insert id="insertCallbackId"  parameterType="aijingjing.domain.Photo" useGeneratedKeys="true" keyProperty="id">
-<!--   	<selectKey resultType="java.lang.Integer" order="AFTER" keyProperty="id">    
-      SELECT LAST_INSERT_ID() AS ID      
-    </selectKey> 
- -->  	
  	insert into photo 
  	(name,path,story,datetime)
   	values 

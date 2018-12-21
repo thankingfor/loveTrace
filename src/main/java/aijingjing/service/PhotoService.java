@@ -1,5 +1,7 @@
 package aijingjing.service;
 
+import java.util.List;
+
 import aijingjing.domain.Photo;
 
 public interface PhotoService {
@@ -13,6 +15,22 @@ public interface PhotoService {
 
 	int selectIdByPath(String image);
 
+	/**
+	 * 通过图片字符串返回id字符串
+	 * @param images
+	 * @return
+	 */
 	String getPhotos(String images);
+	
+	/**
+	 * 	通过id字符串返回Photo 的list
+	 * @param ids
+	 * @return
+	 */
+	List<Photo> getPhotoList(String ids);
+
+	List<Photo> select(String param);
+
+	int editPhotos(Photo photo, String ids);
 
 }

@@ -1,5 +1,7 @@
 package aijingjing.service.impl;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -42,6 +44,28 @@ public class PhotoServiceImpl implements PhotoService{
 			photos = new MyUtils().withDouhao(photos,String.valueOf(id));
 		}
 		return photos;
+	}
+
+	@Override
+	public List<Photo> select(String param) {
+		return photoMapper.select("%"+param+"%");
+	}
+
+	@Override
+	public List<Photo> getPhotoList(String ids) {
+		String[] idArray = ids.split(",");
+		return photoMapper.getPhotoList(idArray);
+	}
+
+	@Override
+	public int editPhotos(Photo photo, String ids) {
+		String[] idArray = ids.split(",");
+		int i = 0;
+		for (String id : idArray) {
+			photo.setId(Integer.valueOf(id));
+			i += photoMapper.editPhotos(photo);
+		}
+		return i;
 	}
 
 }
