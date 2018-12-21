@@ -23,7 +23,7 @@
                 <a class="list-group-item" onclick="showEdit()">相册修改</a>
                 <input id="sel" type="text" class="form-control" value="" placeholder="搜索相册">
                 <a class="list-group-item" onclick="selectList()">相册搜索</a>
-                <a class="list-group-item" onclick="selectDel()">相册删除</a>
+                <!-- <a class="list-group-item" onclick="selectDel()">相册删除</a> -->
             </div>
         </div>
         <div class="col-md-10">

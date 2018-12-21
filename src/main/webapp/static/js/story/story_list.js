@@ -33,7 +33,7 @@ function selectDel(){
 	$.ajax({
         type:"post",
         dataType:"json",
-        url:conPath+"/content/del",
+        url:conPath+"/story/del",
         async:false,
         traditional: true,
         data:{ids:ids},
@@ -52,6 +52,32 @@ function selectDel(){
  */
 function selectList(){
 	$("#table").bootstrapTable("refresh");
+}
+
+/**
+ * 激活
+ * @returns
+ */
+function active(id){
+	$.ajax({
+        url:conPath+"/story/active/"+id,
+        success:function(XYZResult){  
+        	$("#table").bootstrapTable("refresh");
+        }
+    })
+}
+
+/**
+ * 激活
+ * @returns
+ */
+function locked(id){
+	$.ajax({
+        url:conPath+"/story/locked/"+id,
+        success:function(XYZResult){  
+        	$("#table").bootstrapTable("refresh");
+        }
+    })
 }
 
 /**
@@ -126,13 +152,23 @@ function tableshow(){
               field: 'state',
               align: 'center',
               valign: 'middle',
-              visible : false
+              formatter:function(value,row,index){
+            	  if(value == 0){
+            		  return "启用";
+            	  }
+                  return "禁用";
+              }
           },{
               title: '操作',
               align: 'center',
               valign: 'middle',
               formatter:function(value,row,index){
                   var btn = '<a href='+conPath+'/story/'+row.id+' class="btn btn-default" >查看</a>';
+                  if(row.state == 0){
+                	  btn += '<a class="btn btn-default" onclick="locked('+row.id+')">禁用</a>';
+            	  }else {
+            		  btn += '<a class="btn btn-default" onclick="active('+row.id+')">激活</a>';
+            	  }
                   return btn;
               }
           }]   

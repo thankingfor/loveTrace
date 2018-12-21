@@ -27,11 +27,28 @@ import aijingjing.utils.MyUtils;
 @Controller
 public class StoryContoller {
 	
+	@RequestMapping("/{id}")
+	public String show(@PathVariable int id ,Model model) {
+		Story story = storyService.selectById(id);
+		model.addAttribute("story", story);
+		return "/story/story_page";
+	}
+	
 	@RequestMapping("/showEdit/{id}")
 	public String showEdit(@PathVariable int id ,Model model) {
 		Story story = storyService.selectById(id);
 		model.addAttribute("story", story);
 		return "/story/story_edit";
+	}
+	
+	@ResponseBody
+	@RequestMapping("/edit")
+	public Map<String,Object> edit(Story story,String images) {
+		map.clear();
+		story.setPhotos(photoService.getPhotos(images));
+		int msg = storyService.edit(story);
+		map.put("msg", msg);
+		return map;
 	}
 	
 	@ResponseBody
@@ -49,6 +66,19 @@ public class StoryContoller {
 		return map;
 	}
 	
+	@RequestMapping("/xiangce")
+	public String xiangce(
+			@RequestParam(name="page",defaultValue="1") int page,
+			@RequestParam(name="rows",defaultValue="4") int rows,
+			@RequestParam(name="param",defaultValue="")String param,Model model) {
+		map.clear();
+		PageHelper.startPage(page, rows);
+		List<Story> list = storyService.select(param);
+		PageInfo<Story> pageInfo = new PageInfo<Story>(list,8);
+		model.addAttribute("pageInfo",pageInfo);
+		return "xiangce";
+	}
+	
 	@RequestMapping("/list")
 	public String showList() {
 		
@@ -63,30 +93,23 @@ public class StoryContoller {
 	@RequestMapping("/insert")
 	public Map<String,Object> insert(Story story,String images) {
 		map.clear();
-		String[] imgs = images.split(",");
-		String photos = "";
-		for (String image : imgs) {
-			Photo photo = new Photo();
-			photo.setPath(image);
-			int id = photoService.insertCallbackId(photo);
-			//无法解决返回主键，只能查询出来了
-			/*id = photoService.selectIdByPath(image);*/
-			id = photo.getId();
-			photos = new MyUtils().withDouhao(photos,String.valueOf(id));
-		}
-		story.setPhotos(photos);
+		story.setPhotos(photoService.getPhotos(images));
 		int msg = storyService.insert(story);
 		map.put("msg", msg);
 		return map;
 	}
 	
 	@ResponseBody
-	@RequestMapping("/del")
-	public Map<String,Object> insert(int[] ids) {
-		map.clear();
-		for (int i : ids) {
-			storyService.delete(i);
-		}
+	@RequestMapping("/locked/{id}")
+	public Map<String,Object> locked(@PathVariable int id) {
+		storyService.locked(id);
+		return map;
+	}
+	
+	@ResponseBody
+	@RequestMapping("/active/{id}")
+	public Map<String,Object> active(@PathVariable int id) {
+		storyService.active(id);
 		return map;
 	}
 	

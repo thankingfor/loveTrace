@@ -13,4 +13,6 @@ public interface PhotoService {
 
 	int selectIdByPath(String image);
 
+	String getPhotos(String images);
+
 }

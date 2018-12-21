@@ -7,6 +7,11 @@
 		select * from story where id = #{id}
 	</select>
 
+	<!-- void active(int id); -->
+	<update id="active">
+		update story set state = 0 where id = #{id}
+	</update>
+
 	<!-- void delete(int i); -->
 	<update id="delete">
 		update story set state = 1 where id = #{id}
@@ -15,7 +20,7 @@
 	<!-- List<Story> select(String string); -->
 	<select id="select" resultType="aijingjing.domain.Story">
 		select * from story 
-		where (name like #{sel} or article like #{sel} or datetime like #{sel}) and state = 0
+		where name like #{sel} or article like #{sel} or datetime like #{sel}
 		order by STR_TO_DATE(datetime,'%Y-%m-%d') DESC
 	</select>
 

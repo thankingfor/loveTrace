@@ -18,5 +18,7 @@ public interface StoryMapper {
 	Story selectById(Integer id);
 	
 	int edit(Story story);
+
+	void active(int id);
 	
 }

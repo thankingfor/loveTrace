@@ -12,7 +12,7 @@
 <script src="${pageContext.request.contextPath}/static/js/story/story_edit.js"></script>
 <script type="text/javascript">
 var datetime = "${story.datetime }";
-var article = "${story.article }";
+var article = '${story.article }';
 </script>
 </head>
 <body>
@@ -55,7 +55,7 @@ var article = "${story.article }";
                     </div>
                     
 					<div class="page-footer" style="text-align:center;margin-top: 50px;margin-bottom: 50px;">
-						<button type="button" class="btn btn-success" onclick="addContent()" style="height: 40px;width: 140px;">修改</button>
+						<button type="button" class="btn btn-success" onclick="addContent(${story.id })" style="height: 40px;width: 140px;">修改</button>
 		            </div>
                 </form>
             </div>

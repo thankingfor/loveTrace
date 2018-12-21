@@ -22,6 +22,21 @@ public class Story {
 
     List<Photo> list;
     
+    public String getFontContent() {
+		String con = article.replaceAll("[^\u4E00-\u9FA5]", "");
+		if(con.length()<=180) {
+			return con;
+		}
+		return con.substring(0, 180)+"...";
+	}
+    
+    public String getOnePage() {
+		if(list.size() > 0) {
+			return list.get(0).getPath();
+		}
+		return null;
+	}
+    
     public String getPaths() {
     	String str = "";
     	for (Photo photo : list) {

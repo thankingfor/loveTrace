@@ -14,9 +14,9 @@
     and state = 0
   </select>
   
-  <!-- int selectIdByPath(String image); -->
+  <!-- int selectIdByPath(String image); 如果为空返回0-->
   <select id="selectIdByPath" resultType="int">
-  	select id from photo where path = #{image}
+  	select IFNULL(MAX(id), 0) from photo where path = #{image}
   </select>
   
   <!-- int insertCallbackId(Photo photo); -->

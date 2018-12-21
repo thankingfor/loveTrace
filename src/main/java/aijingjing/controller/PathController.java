@@ -14,10 +14,10 @@ public class PathController {
 	public String index() {
 		return "index";
 	}
-	@RequestMapping("/article")
+	/*@RequestMapping("/article")
 	public String article() {
 		return "article";
-	}
+	}*/
 	@RequestMapping("/biaobai")
 	public String biaobai() {
 		return "biaobai";

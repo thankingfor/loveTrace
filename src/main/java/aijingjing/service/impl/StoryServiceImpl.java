@@ -51,4 +51,19 @@ public class StoryServiceImpl implements StoryService {
 		return story;
 	}
 
+	@Override
+	public int edit(Story story) {
+		return storyMapper.edit(story);
+	}
+
+	@Override
+	public void locked(int id) {
+		storyMapper.delete(id);
+	}
+
+	@Override
+	public void active(int id) {
+		storyMapper.active(id);
+	}
+
 }

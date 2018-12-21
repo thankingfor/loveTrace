@@ -27,8 +27,9 @@
 				      <li><a href="${pageContext.request.contextPath}/index"><span class="glyphicon glyphicon-screenshot"></span>&nbsp;&nbsp;首页</a></li>
 				      <li><a href="${pageContext.request.contextPath}/suiyan"><span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;碎言碎语</a></li>
 				      <li><a href="${pageContext.request.contextPath}/content/manman"><span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;慢生活</a></li>
-				      <li><a href="${pageContext.request.contextPath}/yongyong"><span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;回忆相册</a></li>
-				      <li><a href="${pageContext.request.contextPath}/article"><span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;文章记忆</a></li>
+				      <li><a href="${pageContext.request.contextPath}/story/xiangce"><span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;回忆相册</a></li>
+				      <li><a href="${pageContext.request.contextPath}/yongyong"><span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;精彩瞬间</a></li>
+				      <%-- <li><a href="${pageContext.request.contextPath}/article"><span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;文章记忆</a></li> --%>
 				      <li><a href="${pageContext.request.contextPath}/biaobai"><span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;相爱相守</a></li>
 				   	</ul>
                     <!-- <ul class="dropdown-menu" aria-labelledby="dLabel">
@@ -42,7 +43,7 @@
                 </li>
                 <li><a href="#bbs"><span class="glyphicon glyphicon-off"></span>&nbsp;&nbsp;退出</a></li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">
+            <!-- <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
                     <a id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         	数据维护
@@ -55,7 +56,7 @@
                         <li><a href="content_list"><span class="glyphicon glyphicon-credit-card"></span>&nbsp;&nbsp;内容数据</a></li>
                     </ul>
                 </li>
-            </ul>
+            </ul> -->
         </div>
     </div>
 </nav>

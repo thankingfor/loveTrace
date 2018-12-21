@@ -9,7 +9,10 @@ public class Content {
 	private Integer state;
 	public String getFontContent() {
 		String con = content.replaceAll("[^\u4E00-\u9FA5]", "");
-		return con;
+		if(con.length()<=180) {
+			return con;
+		}
+		return con.substring(0, 180)+"...";
 	}
 	public String getOnePage() {
 		String[] s = img.split(",");

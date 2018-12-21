@@ -14,4 +14,10 @@ public interface StoryService {
 
 	Story selectById(int id);
 
+	int edit(Story story);
+
+	void locked(int id);
+
+	void active(int id);
+
 }

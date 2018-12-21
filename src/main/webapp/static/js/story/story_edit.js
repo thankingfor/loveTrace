@@ -49,7 +49,7 @@ function addFormValidator(){
  * 提交表单
  * @returns
  */
-function addContent() {
+function addContent(id) {
 	$('#addForm').data('bootstrapValidator').validate();//启用验证
 	var flag = $('#addForm').data('bootstrapValidator').isValid()//验证是否通过true/false
 	if(!flag){
@@ -58,13 +58,13 @@ function addContent() {
 	//获取 <div id="editor"></div> 
 	//给<input type="hidden" id="addFormSellPoint" name="sellPoint">赋值
 	$('#addFormContent').val(editor.txt.html());
-	alert($('#addFormContent').val())
+	var data = getPathParam("id",id,$('#addForm').serialize());
 	$.ajax({
         type:"post",
         dataType:"json",
-        url:conPath+"/story/insert",
+        url:conPath+"/story/edit",
         async:false,//异步  true 同步
-        data:$('#addForm').serialize(),
+        data:data,
         success:function(result){  
         	toastr.success("添加成功"); 
         },error:function(result){

@@ -27,6 +27,8 @@
 <!-- 表单验证插件 -->
 <script src="${pageContext.request.contextPath}/static/js/plug/bootstrapValidator.min.js" ></script>
 <script src="${pageContext.request.contextPath}/static/js/plug/bootstrapValidator_zh_CN.js" ></script>
+<!-- 自己的utils -->
+<script src="${pageContext.request.contextPath}/static/js/plug/bzsy-utils.js" ></script>
 <script type="text/javascript">
 	/* 一下为全局变量 */
 	//富文本编辑器
@@ -162,66 +164,5 @@
     	} else {
     		return path.split(",");
     	}
-    }
-    
-    /**
-     *	保留中文
-     * @returns
-     */
-    function getChinese(str){
-    	if(str == null || str ==""){
-    		return "";
-    	}
-    	var reg = /[\u4e00-\u9fa5]/g;
-	  	if(str.match(reg) != null && str.match(reg)!=null){
-	  		str.match(reg).join("");
-	  		return str;
-	  	}else {
-	  		return "";
-	  	}
-    }
-    
-    /**
-     *	去除中文
-     * @returns
-     */
-    function getNoChinese(str){
-    	if(str == null || str ==""){
-    		return "";
-    	}
-    	var reg = /[\u4e00-\u9fa5]/g;
-	  	return str.replace(reg, "");
-    }
-    
-    /**
-     * 上一页
-     * @returns
-     */
-    function turnToUp(rows,page,path){
-    	if(page >1){
-    		turnTo(rows,page - 1,path);
-    	}else{
-    		turnTo(rows,1,path);
-    	}
-    }
-
-    /**
-     * 下一页
-     * @returns
-     */
-    function turnToDown(rows,page,totalPage,path){
-    	if(page < totalPage){
-    		turnTo(rows,page + 1,path);
-    	}else{
-    		turnTo(rows,totalPage,path);
-    	}
-    }
-    /**
-     * 跳转某一页数
-     * @param page
-     * @returns
-     */
-    function turnTo(rows,page,path) {
-    	window.location.href = conPath+path+"?page="+page+"&rows="+rows;
     }
 </script>
