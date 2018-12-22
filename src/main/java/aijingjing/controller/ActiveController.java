@@ -25,6 +25,12 @@ public class ActiveController {
 		return "active/active";
 	}
 	
+	@RequestMapping("logout")
+	public String logout(HttpServletRequest request,HttpServletResponse response) {
+		new CookieUtils().deleteCookie(request, response, ACTIVE_COOKIE);
+		return "active/active";
+	}
+	
 	@ResponseBody
 	@RequestMapping("activePass")
 	public String activePass(@RequestParam(name="passNumber",defaultValue="") String passNumber,HttpServletRequest request,HttpServletResponse response) {

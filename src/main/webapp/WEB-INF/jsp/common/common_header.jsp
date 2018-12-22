@@ -1,6 +1,7 @@
 <!-- 此标签解决乱码问题 -->
 <%@page pageEncoding="UTF-8"%>
 <!-- <embed src="2.mp3" hidden="true" autostart="true" loop="true"> -->
+<%-- <iframe src="${pageContext.request.contextPath}/music" scrolling="no" width="0" height="0" frameborder="0"></iframe> --%>
 <!-- 导航栏 -->
 <header>
   <div class="quotes">

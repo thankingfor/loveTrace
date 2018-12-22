@@ -30,6 +30,10 @@ public class PathController {
 	public String show() {
 		return "suiyan";
 	}
+	@RequestMapping("/music")
+	public String music() {
+		return "music";
+	}
 	/*@RequestMapping("/yongyong")
 	public String yongyong() {
 		return "yongyong";

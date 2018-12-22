@@ -15,7 +15,7 @@
                 <li><a href="${pageContext.request.contextPath}/content/list"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;内容管理</a></li>
                 <li><a href="${pageContext.request.contextPath}/story/list"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;相册管理</a></li>
                 <li><a href="${pageContext.request.contextPath}/photo/list"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;精彩瞬间</a></li>
-                <li><a href="tag"><span class="glyphicon glyphicon-tags"></span>&nbsp;&nbsp;标签管理</a></li>
+                <!-- <li><a href="tag"><span class="glyphicon glyphicon-tags"></span>&nbsp;&nbsp;标签管理</a></li> -->
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
@@ -41,7 +41,7 @@
                         <li><a href="test"><span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;测试页面</a></li>
                     </ul> -->
                 </li>
-                <li><a href="#bbs"><span class="glyphicon glyphicon-off"></span>&nbsp;&nbsp;退出</a></li>
+                <li><a href="${pageContext.request.contextPath}/logout"><span class="glyphicon glyphicon-off"></span>&nbsp;&nbsp;退出</a></li>
             </ul>
             <!-- <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">

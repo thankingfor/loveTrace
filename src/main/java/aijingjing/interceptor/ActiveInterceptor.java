@@ -17,18 +17,20 @@ public class ActiveInterceptor implements HandlerInterceptor{
 	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
 			throws Exception {
+		String path = request.getContextPath();
+        String basePath = request.getScheme() + "://"+ request.getServerName() + ":" + request.getServerPort()+ path + "/";
 		Properties po = new Properties();
 		InputStream ras = this.getClass().getClassLoader().getResourceAsStream("/conf/resource.properties");
 		po.load(ras);
 		String cookieName = po.getProperty("ACTIVE_COOKIE");
 		String cookieValue = po.getProperty("ACTIVE_NUMBER");
 		String cookie = new CookieUtils().getCookieValue(request, cookieName);
-		System.err.println(cookieName+","+cookieValue+","+cookie);
+		//System.err.println(cookieName+","+cookieValue+","+cookie);
 		if(cookieValue.equals(cookie)) {
 			return true;
 		}
 		PrintWriter out = response.getWriter();
-		out.print("<script>window.top.location.href ='active'</script>");
+		out.print("<script>window.top.location.href ='"+basePath+"active'</script>");
 		return false;
 	}	
 

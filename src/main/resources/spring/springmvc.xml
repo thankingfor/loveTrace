@@ -23,6 +23,8 @@
 			<mvc:exclude-mapping path="/static/**"/>
 			<mvc:exclude-mapping path="/active"/>
 			<mvc:exclude-mapping path="/activePass"/>
+			<mvc:exclude-mapping path="/music"/>
+			<mvc:exclude-mapping path="/"/>
 			<mvc:exclude-mapping path="/index"/>
 			<mvc:exclude-mapping path="/suiyan"/>
 			<mvc:exclude-mapping path="/biaobai"/>
