@@ -182,7 +182,7 @@
   </dependencies>
   
   	<!-- 下载tomcat8插件 -->
-    <pluginRepositories>   
+    <!-- <pluginRepositories>   
 	  <pluginRepository>   
 		<id>alfresco-public</id>    
 		<url>https://artifacts.alfresco.com/nexus/content/groups/public</url>   
@@ -199,10 +199,29 @@
 		<id>beardedgeeks-releases</id>    
 		<url>http://beardedgeeks.googlecode.com/svn/repository/releases</url>   
 	  </pluginRepository>   
-  </pluginRepositories>
+  </pluginRepositories> -->
+  
   
   <!-- 配置tomcat插件 -->
 	<build>
+	  <resources>  
+            <resource>  
+                <directory>src/main/java</directory>  
+                <includes>  
+                    <include>**/*.properties</include>  
+                    <include>**/*.xml</include>  
+                </includes>  
+                <filtering>false</filtering>  
+            </resource>  
+            <resource>  
+                <directory>src/main/resources</directory>  
+                <includes>  
+                    <include>**/*.properties</include>  
+                    <include>**/*.xml</include>  
+                </includes>  
+                <filtering>false</filtering>  
+            </resource>  
+        </resources>
 		<plugins>
 		<!-- java编译插件 -->
 			<plugin>
@@ -215,29 +234,29 @@
 					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>
-			<plugin>
+			<!-- <plugin>
 	          <groupId>org.apache.tomcat.maven</groupId>
 	          <artifactId>tomcat8-maven-plugin</artifactId>
 	          <version>3.0-r1655215</version>
 	          <configuration>
 					<path>/</path>
 					<port>80</port>
-					<url>http://47.95.196.58:8080/manager/text</url>
+					<url>http://47.95.196.58:8088/manager/text</url>
 					<username>tomcat</username>
 					<password>tomcat</password>
 				</configuration>
-	        </plugin>
-			<!-- <plugin>
+	        </plugin> -->
+			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
-				<artifactId>tomcat8-maven-plugin</artifactId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
 				<configuration>
 					<path>/</path>
 					<port>80</port>
-					<url>http://47.95.196.58:8080/manager/text</url>
+					<url>http://47.95.196.58:8088/manager/text</url>
 					<username>tomcat</username>
 					<password>tomcat</password>
 				</configuration>
-			</plugin> -->
+			</plugin>
 		</plugins>
 	</build>
 </project>

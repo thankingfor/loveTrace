@@ -24,7 +24,8 @@ public class ActiveInterceptor implements HandlerInterceptor{
 		po.load(ras);
 		String cookieName = po.getProperty("ACTIVE_COOKIE");
 		String cookieValue = po.getProperty("ACTIVE_NUMBER");
-		String cookie = new CookieUtils().getCookieValue(request, cookieName);
+		String cookie = (String) request.getSession().getAttribute(cookieName);
+		/*String cookie = new CookieUtils().getCookieValue(request, cookieName);*/
 		//System.err.println(cookieName+","+cookieValue+","+cookie);
 		if(cookieValue.equals(cookie)) {
 			return true;

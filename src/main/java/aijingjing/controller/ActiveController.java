@@ -2,6 +2,7 @@ package aijingjing.controller;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
@@ -26,16 +27,18 @@ public class ActiveController {
 	}
 	
 	@RequestMapping("logout")
-	public String logout(HttpServletRequest request,HttpServletResponse response) {
-		new CookieUtils().deleteCookie(request, response, ACTIVE_COOKIE);
+	public String logout(HttpSession session,HttpServletRequest request,HttpServletResponse response) {
+		session.invalidate();
+		/*new CookieUtils().deleteCookie(request, response, ACTIVE_COOKIE);*/
 		return "active/active";
 	}
 	
 	@ResponseBody
 	@RequestMapping("activePass")
-	public String activePass(@RequestParam(name="passNumber",defaultValue="") String passNumber,HttpServletRequest request,HttpServletResponse response) {
+	public String activePass(@RequestParam(name="passNumber",defaultValue="") String passNumber,HttpSession session,HttpServletRequest request,HttpServletResponse response) {
 		if(ACTIVE_NUMBER.equals(passNumber)) {
-			new CookieUtils().setCookie(request, response, ACTIVE_COOKIE, passNumber,1*60*60);
+			session.setAttribute(ACTIVE_COOKIE, passNumber);
+			/*new CookieUtils().setCookie(request, response, ACTIVE_COOKIE, passNumber,1*60*60);*/
 			return "0";
 		}
 		return "1";
