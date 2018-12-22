@@ -50,6 +50,11 @@ public class PhotoServiceImpl implements PhotoService{
 	public List<Photo> select(String param) {
 		return photoMapper.select("%"+param+"%");
 	}
+	
+	@Override
+	public List<Photo> selectActive(String param) {
+		return photoMapper.selectActive(param);
+	}
 
 	@Override
 	public List<Photo> getPhotoList(String ids) {
@@ -66,6 +71,21 @@ public class PhotoServiceImpl implements PhotoService{
 			i += photoMapper.editPhotos(photo);
 		}
 		return i;
+	}
+
+	@Override
+	public void locked(int id) {
+		photoMapper.locked(id);
+	}
+
+	@Override
+	public void active(int id) {
+		photoMapper.active(id);
+	}
+
+	@Override
+	public Photo selectById(int id) {
+		return photoMapper.selectById(id);
 	}
 
 }

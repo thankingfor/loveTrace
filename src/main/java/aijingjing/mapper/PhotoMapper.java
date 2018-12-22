@@ -21,5 +21,13 @@ public interface PhotoMapper {
 	List<Photo> getPhotoList(String[] idArray);
 
 	int editPhotos(Photo photo);
+
+	void locked(int id);
+
+	void active(int id);
+
+	Photo selectById(int id);
+
+	List<Photo> selectActive(@Param(value="param")String param);
 	
 }

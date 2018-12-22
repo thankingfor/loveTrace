@@ -64,7 +64,7 @@ function selectList(){
  */
 function active(id){
 	$.ajax({
-        url:conPath+"/story/active/"+id,
+        url:conPath+"/photo/active/"+id,
         success:function(XYZResult){  
         	$("#table").bootstrapTable("refresh");
         }
@@ -77,7 +77,7 @@ function active(id){
  */
 function locked(id){
 	$.ajax({
-        url:conPath+"/story/locked/"+id,
+        url:conPath+"/photo/locked/"+id,
         success:function(XYZResult){  
         	$("#table").bootstrapTable("refresh");
         }
@@ -165,7 +165,7 @@ function tableshow(){
               align: 'center',
               valign: 'middle',
               formatter:function(value,row,index){
-                  var btn = '<a href='+conPath+'/story/'+row.id+' class="btn btn-default" >查看</a>';
+                  var btn = '<a href='+conPath+'/photo/'+row.id+' class="btn btn-default" >查看</a>';
                   if(row.state == 0){
                 	  btn += '<a class="btn btn-default" onclick="locked('+row.id+')">禁用</a>';
             	  }else {

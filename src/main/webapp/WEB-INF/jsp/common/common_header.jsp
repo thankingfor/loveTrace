@@ -15,7 +15,7 @@
       <li><a href="${pageContext.request.contextPath}/suiyan">碎言碎语</a></li>
       <li><a href="${pageContext.request.contextPath}/content/manman">慢生活</a></li>
       <li><a href="${pageContext.request.contextPath}/story/xiangce">回忆相册</a></li>
-      <li><a href="${pageContext.request.contextPath}/yongyong">精彩瞬间</a></li>
+      <li><a href="${pageContext.request.contextPath}/photo/yongyong">精彩瞬间</a></li>
       <%-- <li><a href="${pageContext.request.contextPath}/article">文章记忆</a></li> --%>
       <li><a href="${pageContext.request.contextPath}/biaobai">相爱相守</a></li>
    	</ul>

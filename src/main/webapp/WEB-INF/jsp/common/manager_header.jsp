@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="index" class="navbar-brand">言 静</a>
+            <a href="${pageContext.request.contextPath}/index" class="navbar-brand">言 静</a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -28,7 +28,7 @@
 				      <li><a href="${pageContext.request.contextPath}/suiyan"><span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;碎言碎语</a></li>
 				      <li><a href="${pageContext.request.contextPath}/content/manman"><span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;慢生活</a></li>
 				      <li><a href="${pageContext.request.contextPath}/story/xiangce"><span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;回忆相册</a></li>
-				      <li><a href="${pageContext.request.contextPath}/yongyong"><span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;精彩瞬间</a></li>
+				      <li><a href="${pageContext.request.contextPath}/photo/yongyong"><span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;精彩瞬间</a></li>
 				      <%-- <li><a href="${pageContext.request.contextPath}/article"><span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;文章记忆</a></li> --%>
 				      <li><a href="${pageContext.request.contextPath}/biaobai"><span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;相爱相守</a></li>
 				   	</ul>

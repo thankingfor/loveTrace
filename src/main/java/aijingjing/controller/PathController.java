@@ -30,8 +30,8 @@ public class PathController {
 	public String show() {
 		return "suiyan";
 	}
-	@RequestMapping("/yongyong")
+	/*@RequestMapping("/yongyong")
 	public String yongyong() {
 		return "yongyong";
-	}
+	}*/
 }

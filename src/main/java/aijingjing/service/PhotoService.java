@@ -33,4 +33,17 @@ public interface PhotoService {
 
 	int editPhotos(Photo photo, String ids);
 
+	void locked(int id);
+
+	void active(int id);
+
+	Photo selectById(int id);
+
+	/**
+	 * 	查询没有被禁用的图片
+	 * @param param
+	 * @return
+	 */
+	List<Photo> selectActive(String param);
+
 }

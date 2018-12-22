@@ -32,8 +32,19 @@ public class PhotoController {
 	@RequestMapping("/edit/{ids}")
 	public String showEdit(@PathVariable String ids,Model model) {
 		List<Photo> list = photoService.getPhotoList(ids);
+		if(list.size() == 1) {
+			model.addAttribute("photo", list.get(0));
+			return "/photo/photo_editOne";
+		}
 		model.addAttribute("photos", list);
 		return "/photo/photo_edit";
+	}
+	
+	@RequestMapping("/{id}")
+	public String show(@PathVariable int id,Model model) {
+		Photo photo = photoService.selectById(id);
+		model.addAttribute("photo", photo);
+		return "/photo/photo_page";
 	}
 	
 	@RequestMapping("/list")
@@ -53,6 +64,33 @@ public class PhotoController {
 		PageInfo<Photo> pageInfo = new PageInfo<Photo>(list,8);
 		map.put("rows", pageInfo.getList());
 		map.put("total", pageInfo.getTotal());
+		return map;
+	}
+	
+	@RequestMapping("/yongyong")
+	public String list(
+			@RequestParam(name="page",defaultValue="1") int page,
+			@RequestParam(name="rows",defaultValue="20") int rows,
+			@RequestParam(name="param",defaultValue="")String param,Model model) {
+		map.clear();
+		PageHelper.startPage(page, rows);
+		List<Photo> list = photoService.selectActive(param);
+		PageInfo<Photo> pageInfo = new PageInfo<Photo>(list,8);
+		model.addAttribute("pageInfo", pageInfo);
+		return "yongyong";
+	}
+	
+	@ResponseBody
+	@RequestMapping("/locked/{id}")
+	public Map<String,Object> locked(@PathVariable int id) {
+		photoService.locked(id);
+		return map;
+	}
+	
+	@ResponseBody
+	@RequestMapping("/active/{id}")
+	public Map<String,Object> active(@PathVariable int id) {
+		photoService.active(id);
 		return map;
 	}
 	

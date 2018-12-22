@@ -2,6 +2,21 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="aijingjing.mapper.PhotoMapper" >
 
+	<!-- Photo selectById(int id); -->
+	<select id="selectById" resultType="aijingjing.domain.Photo">
+		select * from photo where id = #{id}
+	</select>
+	
+	<!-- void locked(int id); -->
+	<update id="locked">
+		update photo set state = 1 where id = #{param}
+	</update>
+		
+	<!-- void active(int id); -->
+	<update id="active">
+		update photo set state = 0 where id = #{param}
+	</update>
+
 	<!-- int editPhotos(Photo photo); -->
 	<update id="editPhotos">
   		update photo 
@@ -39,6 +54,13 @@
         open="(" close=")" separator=",">
         #{id}
     </foreach>
+  </select>
+  
+  <!-- List<Photo> selectActive(String param); -->
+  <select id="selectActive" resultType="aijingjing.domain.Photo">
+  	select * from photo 
+	where (name like '%${param}%' or 'story' like '%${param}%' or datetime like '%${param}%' ) and state = 0
+	order by STR_TO_DATE(datetime,'%Y-%m-%d') DESC
   </select>
   
   <!-- List<Photo> select(String param); -->
