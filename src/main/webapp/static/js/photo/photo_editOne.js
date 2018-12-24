@@ -66,6 +66,7 @@ function addContent(id) {
         async:false,//异步  true 同步
         data:data,
         success:function(result){  
+        	window.location.href=conPath+"/photo/list";
         	toastr.success("修改成功"); 
         },error:function(result){
         	toastr.warning('修改异常！'); 

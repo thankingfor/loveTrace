@@ -13,7 +13,8 @@ $(function () {
 	    language : 'zh-CN',// 汉化
 	    todayBtn:"linked",//显示今天 按钮
     });
-	$('.form_datetime').datetimepicker('setDate', new Date());
+	$('.form_datetime').val(datetime);
+	editor.txt.html(article)
 })
 
 /**
@@ -48,7 +49,7 @@ function addFormValidator(){
  * 提交表单
  * @returns
  */
-function addContent() {
+function addContent(id) {
 	$('#addForm').data('bootstrapValidator').validate();//启用验证
 	var flag = $('#addForm').data('bootstrapValidator').isValid()//验证是否通过true/false
 	if(!flag){
@@ -57,12 +58,14 @@ function addContent() {
 	//获取 <div id="editor"></div> 
 	//给<input type="hidden" id="addFormSellPoint" name="sellPoint">赋值
 	$('#addFormContent').val(editor.txt.html());
+	var data = getPathParam("id",id,$('#addForm').serialize());
+	console.log(data);
 	$.ajax({
         type:"post",
         dataType:"json",
-        url:conPath+"/content/insert",
+        url:conPath+"/content/edit",
         async:false,//异步  true 同步
-        data:$('#addForm').serialize(),
+        data:data,
         success:function(result){  
         	window.location.href=conPath+"/content/list";
         	toastr.success("添加成功"); 
@@ -78,7 +81,7 @@ function addContent() {
  */
 function selectPic(){
 	$('#filePicture').fileinput('upload'); //触发插件开始上传。
-	//异步上传返回结果处理 多个图片每次独立回调
+	//异步上传返回结果处理 多个图片每次独立回调 fileuploaded filebatchuploadsuccess
 	$("#filePicture").on("fileuploaded", function (event, data, previewId, index) {
 		//alert(JSON.stringify(event));alert(JSON.stringify(data));alert(JSON.stringify(previewId));alert(JSON.stringify(index));
 		var imgUrls = data.response.urls;

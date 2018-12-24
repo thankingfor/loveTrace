@@ -66,6 +66,7 @@ function addContent(id) {
         async:false,//异步  true 同步
         data:data,
         success:function(result){  
+        	window.location.href=conPath+"/story/list";
         	toastr.success("添加成功"); 
         },error:function(result){
         	toastr.warning('添加异常！'); 

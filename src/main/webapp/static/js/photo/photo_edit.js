@@ -50,7 +50,8 @@ function addContent() {
         async:false,//异步  true 同步
         data:param,
         success:function(result){  
-        	toastr.success("修改成功"); 
+        	window.location.href=conPath+"/photo/list";
+        	toastr.success("添加成功"); 
         },
         error:function(XMLHttpRequest,textStatus,errorThrown){
         	toastr.success("修改失败"); 

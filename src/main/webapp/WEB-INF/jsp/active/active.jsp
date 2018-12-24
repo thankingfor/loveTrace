@@ -51,7 +51,7 @@ function index(){
 	        	<form id="activeForm" method="post" action="${pageContext.request.contextPath}/active">
                     <div class="form-group">
                         <label for="activeNumber">激活码</label>
-                        <input type="text" id="activeNumber" name="passNumber" value="" class="form-control" placeholder="请输入激活码" required data-bv-notempty-message="不能为空">
+                        <input type="password" id="activeNumber" name="passNumber" value="" class="form-control" placeholder="请输入激活码" required data-bv-notempty-message="不能为空">
                     </div>
 					<div class="page-footer" style="text-align:center;margin-top: 50px;margin-bottom: 50px;">
 						<button type="button" class="btn btn-success" onclick="active()" style="height: 40px;width: 140px;">激活</button>

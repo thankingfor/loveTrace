@@ -14,4 +14,6 @@ public interface ContentService {
 
 	Content selectById(int id);
 
+	int edit(Content content);
+
 }

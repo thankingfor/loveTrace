@@ -43,6 +43,22 @@ public class ContentController {
 		return "/content/content_list";
 	}
 	
+	@ResponseBody
+	@RequestMapping("/edit")
+	public Map<String,Object> edit(Content content) {
+		map.clear();
+		int msg = contentService.edit(content);
+		map.put("msg", msg);
+		return map;
+	}
+	
+	@RequestMapping("/edit/{id}")
+	public String edit(@PathVariable int id,Model model) {
+		Content content = contentService.selectById(id);
+		model.addAttribute("content", content);
+		return "/content/content_edit";
+	}
+	
 	@RequestMapping("/manman")
 	public String manman(@RequestParam(name="page",defaultValue="1") int page,
 			@RequestParam(name="rows",defaultValue="4") int rows,

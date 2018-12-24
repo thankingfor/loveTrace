@@ -8,10 +8,11 @@ $(function () {
  */
 function showEdit(){
 	var rows = $("#table").bootstrapTable("getSelections");
-	if(JSON.stringify(rows) == "[]"){
-		toastr.info("请选择至少一条数据！！！");
+	if(rows.length != 1){
+		toastr.info("请选择一条数据！！！");
 		return ;
 	}
+	window.location.href=conPath+"/content/edit/"+rows[0].id;
 }
 
 /**

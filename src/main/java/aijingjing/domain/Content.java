@@ -21,6 +21,10 @@ public class Content {
 		}
 		return s[0];
 	}
+	public String[] getImages() {
+		String[] s = img.split(",");
+		return s;
+	}
 	public Integer getId() {
 		return id;
 	}

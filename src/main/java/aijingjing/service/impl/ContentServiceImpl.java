@@ -36,4 +36,9 @@ public class ContentServiceImpl implements ContentService {
 		return contentMapper.selectById(id);
 	}
 
+	@Override
+	public int edit(Content content) {
+		return contentMapper.edit(content);
+	}
+
 }
