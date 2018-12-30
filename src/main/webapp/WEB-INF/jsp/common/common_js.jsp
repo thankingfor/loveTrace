@@ -35,7 +35,7 @@
 	var E = window.wangEditor;
 	var editor = new E('#editor');
 	var conPath = "${pageContext.request.contextPath}";
-	var page404 ="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1545223790324&di=e7a156307cfbb755193f92bee7c9ccde&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01565959e6bcfda80121bea5beef4c.jpg%401280w_1l_2o_100sh.jpg";
+	var page404 ="https://i.ibb.co/Q68Vv52/404.png";
 	//消息件的配置
     toastr.options = {
         closeButton: false,  

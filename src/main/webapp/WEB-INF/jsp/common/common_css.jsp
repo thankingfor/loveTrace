@@ -1,4 +1,4 @@
-<link href="${pageContext.request.contextPath}/static/images/old/xin.png" rel="shortcut icon" >
+<link href="https://i.ibb.co/LkGpFf7/xin.png" rel="shortcut icon" >
 <link href="${pageContext.request.contextPath}/static/css/plug/bootstrap.min.css" rel="stylesheet">
 <link href="${pageContext.request.contextPath}/static/css/plug/bootstrap-theme.min.css" rel="stylesheet">
 <link href="${pageContext.request.contextPath}/static/css/plug/bootstrap-treeview.min.css" rel="stylesheet">
