@@ -1,8 +1,28 @@
-
 /**
- * 用a b 返回 a,b
- * @param a 新添加的
- * @param b 源字符串
+ * 验证是否是一个，或者多个图片
+ * 通过都好分割 然后在判断点后门的图片格式
+ * @param str 新添加的
+ * @returns 字符串
+ */
+function strIsPic(str){
+	if(str == null || str ==""){
+		return false;
+	}
+	var imgURLs = str.split(",");
+	for(var i = 0; i < imgURLs.length;i++){
+		if(imgURLs[i].lastIndexOf(".") == -1 ){
+			return false;
+		}
+		var last = imgURLs[i].substring(imgURLs[i].lastIndexOf(".")+1);
+		if(last != "jpg" && last != "png" && last !="gif"){
+			return false;
+		}
+	}
+	return true;
+}
+/**
+ * 判断字符串是否为空
+ * @param str 字符串
  * @returns 字符串
  */
 function strIsEmpty(str){

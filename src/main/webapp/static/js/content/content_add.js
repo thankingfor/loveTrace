@@ -16,6 +16,44 @@ $(function () {
 	$('.form_datetime').datetimepicker('setDate', new Date());
 })
 
+function selectPicAddr(){
+	//1.验证是否为空
+	if(strIsEmpty($('#picAddr').val())){
+		toastr.warning('数据不能为空！！！'); 
+		return ;
+	}
+	//2.0 把 用中文，的退回来
+	if($('#picAddr').val().indexOf("，") != -1 ){
+		toastr.warning('请输入英文逗号分隔符！！！'); 
+		return ;
+	}
+	//2.验证是否是一个，或者多个图片
+	if(!strIsPic($('#picAddr').val())){
+		toastr.warning('图片的格式不对！！！'); 
+		return ;
+	}
+	var imgURLs = $('#picAddr').val().split(",");
+	//4.添加到表单的input标签中
+	for(var i = 0; i < imgURLs.length;i++){
+		if($('#addFormPic').val() == ""){
+			$('#addFormPic').val(imgURLs[i]);
+			//3.添加img图片回显
+			$('#addFormPicName').append("<img src='"+imgURLs[i]+"' style='height: 50px;width: 70px;'>");
+		}else{
+			//判断是否地址重复，重复了就不添加
+			if($('#addFormPic').val().indexOf(imgURLs[i]) == -1 ){
+				//用,号区分
+				$('#addFormPic').val($('#addFormPic').val()+","+imgURLs[i]);
+				//3.添加img图片回显
+				$('#addFormPicName').append("<img src='"+imgURLs[i]+"' style='height: 50px;width: 70px;'>");
+			}
+		}
+	}
+	//5.清空model中的input数据
+	$('#picAddr').val("");
+}
+
+
 /**
  * 表单验证
  */

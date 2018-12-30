@@ -38,6 +38,7 @@
                     <div class="form-group">
                     	<div id="addFormPicName">
                     		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#selectPicModal">添加图片</button>
+                    		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#selectPicAddrModal">添加相片地址</button>
                     	</div>
                         <input type="hidden" id="addFormPic" name="img" class="form-control">
                     </div>
@@ -75,6 +76,28 @@
     </div>
 </div>
 <!-- 添加图片 -->
+<!-- 添加图片地址 -->
+<div style="z-index: 100000" class="modal fade" id="selectPicAddrModal" tabindex="-1" role="dialog" aria-labelledby="selectPicAddrModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">添加图片地址</h4>
+            </div>
+            <div class="modal-body">
+            	<div class="form-group">
+                    <label for="addname">图片的地址（多张图片用逗号分隔）</label>
+                    <input type="text" id="picAddr" name="title" class="form-control" placeholder="请输入图片的地址（多张图片用逗号分隔）" required data-bv-notempty-message="不能为空">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="selectPicAddr()">添加</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 添加图片地址 -->
 <!-- 模态框 -->
 
 </body>
