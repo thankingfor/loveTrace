@@ -16,6 +16,10 @@ $(function () {
 	$('.form_datetime').datetimepicker('setDate', new Date());
 })
 
+/**
+ * 用图片地址添加
+ * @returns
+ */
 function selectPicAddr(){
 	//1.验证是否为空
 	if(strIsEmpty($('#picAddr').val())){
@@ -29,6 +33,7 @@ function selectPicAddr(){
 	}
 	//2.验证是否是一个，或者多个图片
 	if(!strIsPic($('#picAddr').val())){
+		$('#picAddr').val("");
 		toastr.warning('图片的格式不对！！！'); 
 		return ;
 	}

@@ -26,6 +26,11 @@ public class ActiveController {
 		return "active/active";
 	}
 	
+	@RequestMapping("info")
+	public String info(HttpSession session,HttpServletRequest request,HttpServletResponse response) {
+		return "active/info";
+	}
+	
 	@RequestMapping("logout")
 	public String logout(HttpSession session,HttpServletRequest request,HttpServletResponse response) {
 		session.invalidate();

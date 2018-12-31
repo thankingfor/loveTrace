@@ -22,6 +22,9 @@ public class Content {
 		return s[0];
 	}
 	public String[] getImages() {
+		if(img == "" || img == null) {
+			return null;
+		}
 		String[] s = img.split(",");
 		return s;
 	}

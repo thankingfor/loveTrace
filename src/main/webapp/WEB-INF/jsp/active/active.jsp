@@ -24,7 +24,7 @@ function active(){
 				toastr.error("密码错误");
 			}
 			if(value == "0"){
-				window.location.href=conPath+"/index";
+				window.location.href=conPath+"/info";
 			}
 		},
 		error:function (value){

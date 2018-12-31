@@ -15,6 +15,7 @@
                 <li><a href="${pageContext.request.contextPath}/content/list"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;内容管理</a></li>
                 <li><a href="${pageContext.request.contextPath}/story/list"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;相册管理</a></li>
                 <li><a href="${pageContext.request.contextPath}/photo/list"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;精彩瞬间</a></li>
+                <li><a href="${pageContext.request.contextPath}/info"><span class="glyphicon glyphicon-book"></span>&nbsp;&nbsp;使用说明</a></li>
                 <!-- <li><a href="tag"><span class="glyphicon glyphicon-tags"></span>&nbsp;&nbsp;标签管理</a></li> -->
             </ul>
             <ul class="nav navbar-nav navbar-right">
