@@ -60,7 +60,7 @@
     	editor.customConfig.customUploadImg = function (files, insert) {
     	    // files 是 input 中选中的文件列表
     		//创建为表单去提交
-    		var form = new FormData();
+    		/* var form = new FormData();
     		for (var i = 0; i < files.length; i++) {
     			form.append("uploadFile",files[i]);	
     		}
@@ -68,6 +68,12 @@
     	    // 上传代码返回结果之后，将图片插入到编辑器中
     		for (var i = 0; i < imgUrls.length; i++) {
     			insert(imgUrls[i]);
+    		} */
+    		var form = new FormData();
+    		for (var i = 0; i < files.length; i++) {
+    			form.append("smfile",files[i]);	
+    			var imgUrls = ajaxUpload(form);
+    			insert(imgUrls);
     		}
     	}
     	editor.customConfig.menus = [
@@ -99,7 +105,7 @@
     */
     function ajaxUpload(form){
     	var imgUrls;
-    	$.ajax({
+    	/* $.ajax({
 	        type:"post",
 	        dataType:"json",
 	        url : conPath+"/upload",
@@ -110,6 +116,21 @@
 	        data:form,
 	        success:function(result){  
 	        	imgUrls = result.urls;
+	        },error:function(){
+	        	
+	        }
+	    }) */
+	    $.ajax({
+	        type:"post",
+	        dataType:"json",
+	        url : "https://sm.ms/api/upload",
+	        async:false,//异步  true 同步
+	        cache: false,//缓存 false的话会在url后面加一个时间缀，让它跑到服务器获取结果。
+	        contentType: false,//上传的时候必须要 
+            processData: false,
+	        data:form,
+	        success:function(result){  
+	        	imgUrls = result.data.url;
 	        },error:function(){
 	        	
 	        }
