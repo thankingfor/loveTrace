@@ -21,6 +21,7 @@
             </div>
 	        <div class="page-body" style="text-align:center;margin-bottom: 80px;">
 	        	<p>后台内容管理中上传图片可能不够安全，容易丢失图片！</p>
+	        	<p>富文本编辑器已经可以上传到sm.ms服务器，不用手动操作了</p>
 	        	<p>最好使用其他图床网站，直接使用地址添加图片</p>
 	        	<p><a href="https://imgbb.com/" target="_blank">imgbb图床</a></p>
 	        	<p><a href="https://sm.ms/" target="_blank">sm.ms图床</a></p>
