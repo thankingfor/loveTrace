@@ -24,6 +24,18 @@
 .wall_a li h2 { font-size: 12px; line-height: 24px; padding: 20px; font-weight: normal; opacity: 0; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -webkit-transform: scale(0); transform: scale(0); color: #666 }
 .wall_a li:hover h2 { opacity: 1; -webkit-transform: scale(1); transform: scale(1); }
 .wall_a li:hover img { opacity: 0.4; }
+.photoStyle{
+	background-color:#DCDCDC;
+	width: 250px;
+	height: 360px;
+	display: flex;
+	align-items: center;
+	justify-content: center; /* 项目位于容器的中心。*/
+}
+.photoStyle img{
+	width: 100%;
+	height: auto;
+}
 </style>
 </head>
 <body>
@@ -36,23 +48,25 @@
 <c:forEach items="${pageInfo.list }" var="photo">
 <ul class="wall_a">
 <li>
-<img src="${photo.path }">
+<div class="photoStyle">
+	<img src="${photo.path }">
+</div>
 <figcaption>
-<h2>${photo.story }<span>时间:${photo.datetime }</span> </h2>
+	<h2>${photo.story }<span>时间:${photo.datetime }</span> </h2>
 </figcaption>
 </li>
 </ul>
 </c:forEach>
-<nav class="pull-right">
-	    <ul class="pagination">
-	        <li><a onclick="turnToUp(20,${pageInfo.pageNum },'/photo/yongyong')" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
-	      	<c:forEach items="${pageInfo.navigatepageNums}" var="page" varStatus="varStatus">
-				<li><a onclick="turnTo(20,${page },'/photo/yongyong')" class="disabled">${page }</a></li>
-			</c:forEach>
-	        <li><a onclick="turnToDown(20,${pageInfo.pageNum },${pageInfo.pages },'/photo/yongyong')"><span aria-hidden="true">&raquo;</span></a></li>
-	        
-	    </ul>
-	</nav>
+<!-- 第一版本分页栏位 -- 位置 -->
+<div class="page__demo main-container  demo ">
+<ul class="mypagination pagination_type1">
+<li class="pagination__item"><a class="pagination__number" onclick="turnToUp(20,${pageInfo.pageNum },'/photo/yongyong')">←<span class="pagination__control pagination__control_prev">prev</span></a></li>
+<c:forEach items="${pageInfo.navigatepageNums}" var="page" varStatus="varStatus">
+<li class="pagination__item"><a class="pagination__number" onclick="turnTo(20,${page },'/photo/yongyong')">${page }</a></li>
+</c:forEach>
+<li class="pagination__item"><a class="pagination__number" onclick="turnToDown(20,${pageInfo.pageNum },${pageInfo.pages },'/photo/yongyong')"><span class="pagination__control pagination__control_next">next</span>→</a></a></li>
+</ul>
+</div>
 </div>
 </div>
 </div>
@@ -60,3 +74,13 @@
 <%@ include file="common/common_footer.jsp"%>
 </body>
 </html>
+<%-- 第一版本分页栏位
+<nav class="pull-right">
+    <ul class="pagination">
+        <li><a onclick="turnToUp(20,${pageInfo.pageNum },'/photo/yongyong')" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+      	<c:forEach items="${pageInfo.navigatepageNums}" var="page" varStatus="varStatus">
+			<li><a onclick="turnTo(20,${page },'/photo/yongyong')" class="disabled">${page }</a></li>
+		</c:forEach>
+        <li><a onclick="turnToDown(20,${pageInfo.pageNum },${pageInfo.pages },'/photo/yongyong')"><span aria-hidden="true">&raquo;</span></a></li>
+    </ul>
+</nav> --%>

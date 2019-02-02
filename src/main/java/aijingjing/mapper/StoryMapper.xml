@@ -23,6 +23,13 @@
 		where name like #{sel} or article like #{sel} or datetime like #{sel}
 		order by STR_TO_DATE(datetime,'%Y-%m-%d') DESC
 	</select>
+	
+	<!-- List<Story> selectActive(String param); -->
+	<select id="selectActive" resultType="aijingjing.domain.Story">
+		select * from story 
+		where (name like #{sel} or article like #{sel} or datetime like #{sel}) and state = 0
+		order by STR_TO_DATE(datetime,'%Y-%m-%d') DESC
+	</select>
 
 	<!-- int insert(Story story); -->
 	<insert id="insert">

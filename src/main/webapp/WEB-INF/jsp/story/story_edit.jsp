@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1 , user-scalable=no">
-<title>数据维护-内容详情-内容添加</title>
+<title>数据维护-内容详情-相册修改</title>
 <%@ include file="../common/common_css.jsp"%>
 <%@ include file="../common/common_js.jsp"%>
 <script src="${pageContext.request.contextPath}/static/js/story/story_edit.js"></script>
@@ -41,7 +41,7 @@ var article = '${story.article }';
 		            </div>
                     <div class="form-group">
                     	<div id="addFormPicName">
-                    		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#selectPicModal">添加故事图片</button>
+                    		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#selectPicModal">添加故事图片到图床</button>
                     		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#selectPicAddrModal">添加相片地址</button>
                     		<c:forEach items="${story.list }" var="photo">
                     			<img src='${photo.path }' style='height: 50px;width: 70px;'>

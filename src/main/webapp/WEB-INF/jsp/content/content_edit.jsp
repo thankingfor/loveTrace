@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1 , user-scalable=no">
-<title>数据维护-内容详情-内容添加</title>
+<title>数据维护-内容详情-内容修改</title>
 <%@ include file="../common/common_css.jsp"%>
 <%@ include file="../common/common_js.jsp"%>
 <script src="${pageContext.request.contextPath}/static/js/content/content_edit.js"></script>
@@ -24,13 +24,13 @@ var article = '${content.content }';
         <div class="col-md-1"></div>
         <div class="col-md-10">
             <div class="page-header" style="text-align:center;">
-                <h1>相册修改</h1>
+                <h1>内容修改</h1>
             </div>
             <div class="page-body">
                 <form id="addForm">
                     <div class="form-group">
-                        <label for="addname">相册名称</label>
-                        <input type="text" id="addFormTitle" name="title" value="${content.title }" class="form-control" placeholder="请输入相册名字" required data-bv-notempty-message="不能为空">
+                        <label for="addname">内容名称</label>
+                        <input type="text" id="addFormTitle" name="title" value="${content.title }" class="form-control" placeholder="请输入内容名字" required data-bv-notempty-message="不能为空">
                     </div>
                     <div class="form-group">
 		                <div class="input-group date col-md-4" >
@@ -40,8 +40,8 @@ var article = '${content.content }';
 		            </div>
                     <div class="form-group">
                     	<div id="addFormPicName">
-                    		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#selectPicModal">添加故事图片</button>
-                    		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#selectPicAddrModal">添加相片地址</button>
+                    		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#selectPicModal">添加图片到图床</button>
+                    		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#selectPicAddrModal">添加内容地址</button>
                     		<c:forEach items="${content.images }" var="image">
                     			<img src='${image }' style='height: 50px;width: 70px;'>
                     		</c:forEach>
@@ -49,7 +49,7 @@ var article = '${content.content }';
                         <input type="hidden" id="addFormPic" name="img" value="${content.img }" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label for="addname">相册的故事</label>
+                        <label for="addname">内容的故事</label>
                         <div id="editor"></div>
                     	<input type="hidden" id="addFormContent" value="" name="content">
                     </div>

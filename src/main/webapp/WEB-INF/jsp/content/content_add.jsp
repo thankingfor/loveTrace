@@ -37,8 +37,8 @@
 		            </div>
                     <div class="form-group">
                     	<div id="addFormPicName">
-                    		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#selectPicModal">添加图片</button>
-                    		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#selectPicAddrModal">添加相片地址</button>
+                    		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#selectPicModal">添加图片到图床</button>
+                    		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#selectPicAddrModal">添加内容地址</button>
                     	</div>
                         <input type="hidden" id="addFormPic" name="img" class="form-control">
                     </div>

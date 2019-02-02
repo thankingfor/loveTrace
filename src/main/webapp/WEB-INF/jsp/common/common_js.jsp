@@ -35,7 +35,8 @@
 	var E = window.wangEditor;
 	var editor = new E('#editor');
 	var conPath = "${pageContext.request.contextPath}";
-	var page404 ="https://i.ibb.co/Q68Vv52/404.png";
+	//var page404 ="https://i.ibb.co/Q68Vv52/404.png";
+	var page404 ="https://i.loli.net/2019/02/02/5c5546cda0634.jpg";
 	//消息件的配置
     toastr.options = {
         closeButton: false,  
@@ -101,25 +102,11 @@
         editor.create();
     }
     /**
-    *ajax上传
+    * ajax上传
+    * 针对WangEditer
     */
     function ajaxUpload(form){
     	var imgUrls;
-    	/* $.ajax({
-	        type:"post",
-	        dataType:"json",
-	        url : conPath+"/upload",
-	        async:false,//异步  true 同步
-	        cache: false,//缓存 false的话会在url后面加一个时间缀，让它跑到服务器获取结果。
-	        contentType: false,//上传的时候必须要 
-            processData: false,
-	        data:form,
-	        success:function(result){  
-	        	imgUrls = result.urls;
-	        },error:function(){
-	        	
-	        }
-	    }) */
 	    $.ajax({
 	        type:"post",
 	        dataType:"json",
@@ -156,6 +143,23 @@
             previewFileIcon: "<i class='glyphicon glyphicon-king'></i>", 
         });
     }
+    
+    /**
+     *	初始化fileinput控件（第一次初始化）
+      * @param ctrlName id
+      * @returns
+      */
+     function initFileInput(ctrlName) {    
+         var control = $('#' + ctrlName); 
+         control.fileinput({
+             language: 'zh', //设置语言
+             allowedFileExtensions : ['jpg', 'png','gif'],//接收的文件后缀
+             showUpload: false, //是否显示上传按钮
+             showCaption: false,//是否显示标题
+             browseClass: "btn btn-primary", //按钮样式             
+             previewFileIcon: "<i class='glyphicon glyphicon-king'></i>", 
+         });
+     }
     
     /**
     * 	得到一个图片 

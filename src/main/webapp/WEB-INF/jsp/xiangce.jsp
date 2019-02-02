@@ -39,7 +39,16 @@
       </li>
     </c:forEach>
     </ul>
-	<nav class="pull-right">
+    <div class="page__demo main-container  demo ">
+		<ul class="mypagination pagination_type1">
+		<li class="pagination__item"><a class="pagination__number" onclick="turnToUp(4,${pageInfo.pageNum },'/story/xiangce')" >←<span class="pagination__control pagination__control_prev">prev</span></a></li>
+		<c:forEach items="${pageInfo.navigatepageNums}" var="page" varStatus="varStatus">
+		<li class="pagination__item"><a class="pagination__number" onclick="turnTo(4,${page },'/story/xiangce')">${page }</a></li>
+		</c:forEach>
+		<li class="pagination__item"><a class="pagination__number" onclick="turnToDown(4,${pageInfo.pageNum },${pageInfo.pages },'/story/xiangce')"><span class="pagination__control pagination__control_next">next</span>→</a></a></li>
+		</ul>
+	</div>
+	<%-- <nav class="pull-right">
 	    <ul class="pagination">
 	        <li><a onclick="turnToUp(4,${pageInfo.pageNum },'/story/xiangce')" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
 	      	<c:forEach items="${pageInfo.navigatepageNums}" var="page" varStatus="varStatus">
@@ -48,7 +57,7 @@
 	        <li><a onclick="turnToDown(4,${pageInfo.pageNum },${pageInfo.pages },'/story/xiangce')"><span aria-hidden="true">&raquo;</span></a></li>
 	        
 	    </ul>
-	</nav>
+	</nav> --%>
   </div>
 </div>
 

@@ -11,3 +11,4 @@
 <link href="${pageContext.request.contextPath}/static/css/plug/bootstrapValidator.min.css" rel="stylesheet">
 <link href="${pageContext.request.contextPath}/static/css/plug/bootstrap-datetimepicker.min.css" rel="stylesheet">
 <link href="${pageContext.request.contextPath}/static/css/plug/bootstrap-maizi.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/static/css/plug/pagination.css" rel="stylesheet">

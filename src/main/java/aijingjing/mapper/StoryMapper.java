@@ -12,6 +12,8 @@ public interface StoryMapper {
 	int insert(Story story);
 
 	List<Story> select(String param);
+	
+	List<Story> selectActive(String param);
 
 	void delete(int i);
 	
@@ -20,5 +22,5 @@ public interface StoryMapper {
 	int edit(Story story);
 
 	void active(int id);
-	
+
 }

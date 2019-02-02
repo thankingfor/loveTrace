@@ -73,7 +73,7 @@ public class StoryContoller {
 			@RequestParam(name="param",defaultValue="")String param,Model model) {
 		map.clear();
 		PageHelper.startPage(page, rows);
-		List<Story> list = storyService.select(param);
+		List<Story> list = storyService.selectActive(param);
 		PageInfo<Story> pageInfo = new PageInfo<Story>(list,8);
 		model.addAttribute("pageInfo",pageInfo);
 		return "xiangce";

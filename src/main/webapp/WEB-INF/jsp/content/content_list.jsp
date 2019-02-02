@@ -28,7 +28,7 @@
         </div>
         <div class="col-md-10">
             <div class="page-header">
-                <h1>商品管理</h1>
+                <h1>内容管理</h1>
             </div>
             <div class="page-body">
             	<table id="table"></table>

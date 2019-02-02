@@ -19,6 +19,7 @@
       <li><a href="${pageContext.request.contextPath}/photo/yongyong">精彩瞬间</a></li>
       <%-- <li><a href="${pageContext.request.contextPath}/article">文章记忆</a></li> --%>
       <li><a href="${pageContext.request.contextPath}/biaobai">相爱相守</a></li>
+      <li><a href="${pageContext.request.contextPath}/info">空间管理</a></li>
    	</ul>
   </div>
   <!--nav end--> 

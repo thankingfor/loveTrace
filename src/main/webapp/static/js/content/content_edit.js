@@ -1,6 +1,6 @@
 $(function () {
 	initWangEditor();
-	initFileInput("filePicture",conPath+"/upload");
+	initFileInput("filePicture");
 	$('#addForm').bootstrapValidator();
 	$(".form_datetime").datetimepicker({
 		minView: "month",//选择日期后，不会再跳转去选择时分秒
@@ -122,24 +122,18 @@ function addContent(id) {
  * @returns
  */
 function selectPic(){
-	$('#filePicture').fileinput('upload'); //触发插件开始上传。
-	//异步上传返回结果处理 多个图片每次独立回调 fileuploaded filebatchuploadsuccess
-	$("#filePicture").on("fileuploaded", function (event, data, previewId, index) {
-		//alert(JSON.stringify(event));alert(JSON.stringify(data));alert(JSON.stringify(previewId));alert(JSON.stringify(index));
-		var imgUrls = data.response.urls;
-		//解决多次回调问题
-		var paths = $('#addFormPic').val().split(",");
-		if(paths[paths.length-1] == imgUrls[0]){
-			return ;
-		}
+	var file = $('#filePicture')[0];
+	for(var i = 0; i < file.files.length;i++){
+		var formData=new FormData();
+		formData.append('smfile',file.files[i]);
+		var imgUrls = ajaxUpload(formData)
 		$('#addFormPicName').append("<img src='"+imgUrls+"' style='height: 50px;width: 70px;'>");
-		//给<input type="hidden" id="addFormImage" name="image" class="form-control">赋值
 		if($('#addFormPic').val() == ""){
 			$('#addFormPic').val(imgUrls);
 		}else{
 			//用,号区分
 			$('#addFormPic').val($('#addFormPic').val()+","+imgUrls);
 		}
-	 });
-	 $("#selectPicModal").modal("hide");
+	}
+	$("#selectPicModal").modal("hide");
 }

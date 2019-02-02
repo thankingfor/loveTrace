@@ -36,6 +36,18 @@ public class StoryServiceImpl implements StoryService {
 		}
 		return list;
 	}
+	
+	@Override
+	public List<Story> selectActive(String param) {
+		List<Story> list = storyMapper.selectActive("%"+param+"%");
+		for (Story story : list) {
+			//通过id字符串查询
+			String[] ids = story.getPhotos().split(",");
+			List<Photo> listPhoto = photoMapper.selectByIds(ids);
+			story.setList(listPhoto);
+		}
+		return list;
+	}
 
 	@Override
 	public void delete(int i) {
@@ -59,11 +71,28 @@ public class StoryServiceImpl implements StoryService {
 	@Override
 	public void locked(int id) {
 		storyMapper.delete(id);
+		lockedPhoto(id);
 	}
 
+	public void lockedPhoto(int id) {
+		Story story = storyMapper.selectById(id);
+		String[] ids = story.getPhotos().split(",");
+		for (String photoid : ids) {
+			photoMapper.locked(Integer.valueOf(photoid));
+		}
+	}
+	
 	@Override
 	public void active(int id) {
 		storyMapper.active(id);
+		activePhoto(id);
 	}
-
+	
+	public void activePhoto(int id) {
+		Story story = storyMapper.selectById(id);
+		String[] ids = story.getPhotos().split(",");
+		for (String photoid : ids) {
+			photoMapper.active(Integer.valueOf(photoid));
+		}
+	}
 }

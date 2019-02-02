@@ -9,6 +9,8 @@ public interface StoryService {
 	int insert(Story story);
 
 	List<Story> select(String param);
+	
+	List<Story> selectActive(String param);
 
 	void delete(int i);
 
