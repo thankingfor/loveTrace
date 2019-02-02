@@ -16,7 +16,7 @@
 	text-align:center;
 	color : red;
 }
-.image_One {
+/* .image_One {
 	width : 100%;
 	/* overflow:hidden; */
 }
@@ -24,7 +24,7 @@
 	height : 400px;
 	width : 300px;
 	padding: 5px;
-}
+} */
 #myarticle{
 	width : 100%;
 	background-color : #cccccc; 
