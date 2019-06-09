@@ -25,5 +25,6 @@
 
 <!-- 尾部 -->
 <footer>
-  <p>致敬我最爱的静静...</p>
+  <p style="float: left;font-size: 22px
+  ;"><a href="http://www.beian.miit.gov.cn">豫ICP备18037528号-1</a> </p>
 </footer>
