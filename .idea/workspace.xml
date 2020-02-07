@@ -6,15 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83c09c3f-8e3f-4796-98fd-8c235152961b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/deploy/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/loveTrace_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/loveTrace_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/loveTrace_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/loveTrace_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loveTrace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/loveTrace.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aijingjing/controller/PictureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aijingjing/controller/PictureController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aijingjing/utils/FastDFSClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aijingjing/utils/FastDFSClient.java" afterDir="false" />
-    </list>
+    <list default="true" id="83c09c3f-8e3f-4796-98fd-8c235152961b" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +177,7 @@
       <updated>1560073278076</updated>
       <workItem from="1560073281446" duration="629000" />
       <workItem from="1560076371806" duration="3563000" />
-      <workItem from="1581069716723" duration="1410000" />
+      <workItem from="1581069716723" duration="1746000" />
     </task>
     <servers />
   </component>
