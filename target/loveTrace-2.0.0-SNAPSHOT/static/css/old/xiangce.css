@@ -1,0 +1,68 @@
+﻿@charset "gb2312";
+/* CSS Document */
+* { margin: 0; padding: 0 }
+a:link, a:visited { text-decoration: none; }
+ul, li { list-style-type: none }
+img { border: 0; }
+body { width: 1600px ; font-size: 12px; background: #226039 url(https://i.ibb.co/Mcnw0Pb/bg-girl.jpg) center 0 scroll no-repeat; color: #5d5d5d; }
+.blank { height: 5px; overflow: hidden; width: 100%; margin: auto; clear: both }
+/* header */
+header { width: 1600px; margin: auto; border-bottom: #3c7a48 8px solid }
+.quotes { width: 1000px; position: relative; margin: 60px auto 120px auto; }
+.quotes p { text-shadow: #246640 1px 1px 1px; color: #fff; width: 330px; line-height: 26px; }
+.text5 { position: absolute; left: 0px; top: 160px; font-family: "Î¢ÈíÑÅºÚ"; font-size: 30px; color: #FFF; -webkit-box-reflect: below -3px -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(white)); }/* belowÎÄ×Öµ¹Ó°·½ÏòÏòÏÂ£¬¾àÀë3px ÑÕÉ«½¥±äÓÉÉÏÍùÏÂ */
+.flower { position: absolute; right: 0; top: 60px; background: url(https://i.ibb.co/3pWgJv7/flower.png) no-repeat; width: 173px; height: 175px; z-index: 2 }
+.flower img { margin: 22px 0 0 17px; display: block; }
+/* nav */
+#nav { width: 100%; line-height: 50px; height: 50px; font-family: "Î¢ÈíÑÅºÚ"; font-size: 16px; background: rgba(56,134,72,.8); text-align: center; position: relative; border-bottom: #559765 1px solid }
+#nav ul { width: 1000px; margin: auto; background:  left no-repeat; overflow: hidden }
+#nav ul li { display: inline; margin: 0 12px; text-align: center; }
+#nav ul li a { color: #fff; }
+.rong{ width: 100%;height: 1200px;border-top: #B4EEB4 2px solid;background: #226039 }
+.k1{ margin-left: 220px; }
+/* hope */
+
+img { border: 0; vertical-align: middle }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+p { word-wrap: break-word }
+ul, ol { list-style: none; }
+a { color: #a6a6a6; text-decoration: none; transition: All 1s ease; -webkit-transition: All 1s ease; -moz-transition: All 1s ease; -ms-transition: All 1s ease; -o-transition: All 1s ease; }
+a:hover { color: #fff; }
+.blogs {background:#548B54; width: 900px; margin: 0 auto 20px;height: 1200px;border-radius: 50px; box-shadow: 0 5px 9px 0 rgba(0,0,0,0.3);}
+.bloglist { width: 666px; float: left; margin-left: 120px;margin-top: 30px; }
+.bloglist>li { border-right: #111 2px solid; padding: 20px 0; }
+.arrow_box { background: #222; box-shadow: 0px 1px 0px rgba(255,255,255,.1), inset 0px 1px 1px rgba(0,0,0,.7); width: 630px; color: #b9b9b9; border-radius: 6px; position: relative }
+.ti { width: 0px; height: 0px; border-style: solid; border-width: 0px 0 20px 22px; border-color: transparent transparent transparent #111; position: absolute; left: 630px; top: 20px; }/* Èý½ÇÐÎ */
+.ci { width: 10px; height: 10px; border-radius: 50%; position: absolute; left: 658px; top: 16px; background: #000; border: 2px solid #333; } /* Ô²ÐÎ¶¨Òå±ß¿òÉ«Óë±³¾°Ò»ÖÂ */
+.ci:hover { border: 2px solid #B9B9B9; }
+.arrow_box h2.title { padding: 0 0 0 20px; font: 16px/50px "Î¢ÈíÑÅºÚ", "Microsoft YaHei", Arial, Helvetica, sans-serif }
+.arrow_box h2 a:hover { padding-left: 20px }
+.textinfo { overflow: hidden; }
+.textinfo img{width: 160px;height: 140px;border: 5px solid #C1C1C1;}
+.arrow_box img { width: 150px; padding: 4px; float: left; -webkit-transition: All 1s ease; -moz-transition: All 1s ease; -ms-transition: All 1s ease; -o-transition: All 1s ease; border-radius: 4px; margin: 0 20px 20px; }
+.arrow_box img:hover { opacity: 0.6; }
+.arrow_box p { line-height: 24px; padding: 0 20px 20px }
+.arrow_box p:hover { text-shadow: 1px 1px 1px #000; }
+
+
+
+
+
+
+
+
+.text6 {font-family: "Î¢ÈíÑÅºÚ"; font-size: 30px; color: #FFF; -webkit-box-reflect: below 1px -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(white)); width:1000px; margin:auto  }
+.hope{ border-top:50px #559664 solid; padding:20px; color:#FFF }
+.hope ul{ width:1000px; margin:auto;background: url(https://i.ibb.co/PzcMBnn/love.png) no-repeat left center; overflow:hidden}
+.visitors{ width:500px; float:right}
+.visitors dl { display: block; overflow: hidden; margin-bottom: 12px }
+.visitors dt { float: left; }
+.visitors dt img { width: 100px; height: 100px; margin-right: 20px; border-radius:100% }
+.visitors dd { line-height: 22px; }
+.visitors dd a{ color:#d2ec40; font-size:14px; font-weight:bold}
+.visitors dt+dd{ margin-top:20px}
+/*footer*/
+footer{ background:#032e13; height:56px; line-height:56px;border: 2px solid}
+footer p{ width:1000px; margin:auto; text-align:right;color:#BF3EFF }
+footer p a{color:#C0FF3E}
+footer p a:hover{ text-decoration:underline}

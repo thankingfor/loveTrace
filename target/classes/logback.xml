@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration 
+    xmlns="http://ch.qos.logback/xml/ns/logback"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://ch.qos.logback/xml/ns/logback https://raw.githubusercontent.com/enricopulatzo/logback-XSD/master/src/main/xsd/logback.xsd">
+	
+	<property name="logHome" value="log/loveTrace"/>
+	<property name="logLevel" value="debug"/>
+	
+    <!-- 输出到控制台 -->
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender" >
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <!-- <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50}: %msg%n</pattern> -->
+            <pattern> %-5level %logger{50}: %msg%n</pattern>
+        </encoder>
+    </appender>
+	<!-- 按照每天生成日志文件 -->
+	<appender name="everyday"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!--日志文件输出的文件名 %i:起始是0，当第一个文件的大小超过10MB时，变为1，依次类推-->
+			<fileNamePattern>${logHome}/all-%d{yyyy-MM-dd}.%i.log
+			</fileNamePattern>
+			<!--日志文件保留天数 -->
+			<maxHistory>30</maxHistory>
+			<!-- 按时间回滚的同时，按文件大小来回滚 -->
+			<timeBasedFileNamingAndTriggeringPolicy
+				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>10MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} -
+				%msg%n</pattern>
+		</encoder>
+	</appender>
+
+    <root level="${logLevel}">
+        <appender-ref ref="console" />
+		<appender-ref ref="everyday" />
+    </root>
+    <!--myibatis log configure-->
+	<logger name="com.apache.ibatis" level="TRACE"/>
+	<logger name="java.sql.Connection" level="DEBUG"/>
+	<logger name="java.sql.Statement" level="DEBUG"/>
+	<logger name="java.sql.PreparedStatement" level="DEBUG"/>
+</configuration>

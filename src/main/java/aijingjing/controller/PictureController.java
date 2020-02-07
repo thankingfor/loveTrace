@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 
-import aijingjing.utils.FastDFSClient;
 import aijingjing.utils.JsonUtils;
 
 /**
@@ -52,7 +51,7 @@ public class PictureController {
 	
 	public String uploadPic(MultipartFile uploadFile) {
 		try {
-			//把图片上传的图片服务器
+			/*//把图片上传的图片服务器
 			FastDFSClient fastDFSClient = new FastDFSClient("classpath:conf/client.conf");
 			String originalFilename = uploadFile.getOriginalFilename();
 			String extName = originalFilename.substring(originalFilename.lastIndexOf(".") + 1);
@@ -60,7 +59,7 @@ public class PictureController {
 			String url = fastDFSClient.uploadFile(uploadFile.getBytes(), extName);
 			//补充为完整的url
 			url = IMAGE_SERVER_URL + url;
-			return url;
+			return url;*/
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

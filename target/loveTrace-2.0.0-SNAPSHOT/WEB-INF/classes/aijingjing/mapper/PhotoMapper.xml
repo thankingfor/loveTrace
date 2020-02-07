@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="aijingjing.mapper.PhotoMapper" >
+
+	<!-- Photo selectById(int id); -->
+	<select id="selectById" resultType="aijingjing.domain.Photo">
+		select * from photo where id = #{id}
+	</select>
+	
+	<!-- void locked(int id); -->
+	<update id="locked">
+		update photo set state = 1 where id = #{param}
+	</update>
+		
+	<!-- void active(int id); -->
+	<update id="active">
+		update photo set state = 0 where id = #{param}
+	</update>
+
+	<!-- int editPhotos(Photo photo); -->
+	<update id="editPhotos">
+  		update photo 
+			<set>
+				<if test="datetime != null">datetime=#{datetime},</if>
+				<if test="name != null">`name`=#{name},</if>
+				<if test="story != null">`story`=#{story},</if>
+				<if test="state != null">state=#{state},</if>
+			</set>
+			where id = #{id}
+	  </update>
+	  
+  <!-- int editPhotos(@Param(value="photo")Photo photo,@Param(value="id") String[] idArray); -->
+  <!-- 多图片一起修改 -->
+<!--   <update id="editPhotos">
+  	update photo 
+		<set>
+			<if test="datetime != null">datetime=#{photo.datetime},</if>
+			<if test="name != null">`name`=#{photo.name},</if>
+			<if test="story != null">`story`=#{photo.story},</if>
+			<if test="state != null">state=#{photo.state},</if>
+		</set>
+		where id in 
+		<foreach collection="array" item="id" index="index"
+        	open="(" close=")" separator=",">
+        	#{id}
+    	</foreach>
+  </update> -->
+  
+  <!-- List<Photo> getPhotoList(String[] idArray); -->
+  <select id="getPhotoList" resultType="aijingjing.domain.Photo">
+  	select * from photo 
+  	where id in 
+  	<foreach collection="array" item="id" index="index"
+        open="(" close=")" separator=",">
+        #{id}
+    </foreach>
+  </select>
+  
+  <!-- List<Photo> selectActive(String param); -->
+  <select id="selectActive" resultType="aijingjing.domain.Photo">
+  	select * from photo 
+	where (name like '%${param}%' or 'story' like '%${param}%' or datetime like '%${param}%' ) and state = 0
+	order by STR_TO_DATE(datetime,'%Y-%m-%d') DESC
+  </select>
+  
+  <!-- List<Photo> select(String param); -->
+  <select id="select" resultType="aijingjing.domain.Photo">
+  	select * from photo 
+	where name like #{param} or 'story' like #{param} or datetime like #{param}
+	order by STR_TO_DATE(datetime,'%Y-%m-%d') DESC
+  </select>
+  
+  <!-- List<Photo> selectByIds(String[] ids); -->
+  <select id="selectByIds" resultType="aijingjing.domain.Photo">
+  	select * 
+  	from photo 
+  	where id in 
+  	<foreach collection="array" item="id" index="index"
+        open="(" close=")" separator=",">
+        #{id}
+    </foreach>
+    and state = 0
+  </select>
+  
+  <!-- int selectIdByPath(String image); 如果为空返回0-->
+  <select id="selectIdByPath" resultType="int">
+  	select IFNULL(MAX(id), 0) from photo where path = #{image}
+  </select>
+  
+  <!-- int insertCallbackId(Photo photo); -->
+  <insert id="insertCallbackId"  parameterType="aijingjing.domain.Photo" useGeneratedKeys="true" keyProperty="id">
+ 	insert into photo 
+ 	(name,path,story,datetime)
+  	values 
+  	(#{name},#{path},#{story},#{datetime})
+  </insert>
+  
+</mapper>

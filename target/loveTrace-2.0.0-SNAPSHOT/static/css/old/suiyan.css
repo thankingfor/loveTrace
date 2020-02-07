@@ -1,0 +1,84 @@
+@charset "gb2312";
+/* CSS Document */
+* { margin: 0; padding: 0 }
+a:link, a:visited { text-decoration: none; }
+ul, li { list-style-type: none }
+img { border: 0; }
+body { width: 1600px ; font-size: 12px; background: #226039 url(https://i.ibb.co/CWP7cwP/bd2.jpg) center 0 scroll no-repeat; color: #5d5d5d; }
+.blank { height: 5px; overflow: hidden; width: 100%; margin: auto; clear: both }
+/* header */
+header { width: 100%; margin: auto; border-bottom: #3c7a48 8px solid }
+.quotes { width: 900px; position: relative;left: 170px; margin: 60px auto 120px auto; }
+.quotes p { text-shadow: #FF83FA 1px 1px 1px; color: #fff; width: 330px; line-height: 26px; }
+.text5 { position: absolute; left: -360px; top: 160px; font-family: "����锟斤拷��浠�锟斤拷���ゆ�峰�硷拷��锟�"; font-size: 30px; color: #FFF; -webkit-box-reflect: below -3px -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(white)); }/* below���ゆ�烽���ゆ�风喊锟芥ィ�℃�凤拷瀹��撅拷锟介����锟介����锟介���ゆ�凤拷��锟姐�★拷锟介���ゆ�峰В锟�3px ���ゆ�烽����锟斤拷锟斤拷濡ょ��锟姐��锟借�ф�烽���ゆ�烽���ゆ�凤拷锟介���ゆ�� */
+.flower { position: absolute; right: 0; top: 60px; background: url(https://i.ibb.co/3pWgJv7/flower.png) no-repeat; width: 173px; height: 175px; z-index: 2 }
+.flower img { margin: 22px 0 0 17px; display: block; }
+/* nav */
+#nav { width: 100%; line-height: 50px; height: 50px; font-family: "����锟斤拷��浠�锟斤拷���ゆ�峰�硷拷��锟�"; font-size: 16px; background: rgba(56,134,72,.8); text-align: center; position: relative; border-bottom: #559765 1px solid }
+#nav ul { width: 1000px; margin: auto; background:  left no-repeat; overflow: hidden }
+#nav ul li { display: inline; margin: 0 12px; text-align: center; }
+#nav ul li a { color: #fff; }
+
+
+
+.rong{ width: 100%;height: 1200px;border-top: #B4EEB4 2px solid;background: #226039 }
+.shang{margin-top: 90px;}
+
+
+
+
+.xia{margin-top: -1100px;}
+
+
+
+
+
+.k1{float: left;}
+.ku1{margin-left: 120px;}
+.k2{float: right;}
+.zz{display: block;position: relative;top: -400px;left: 440px;
+    transform:rotate(0deg);
+     text-shadow:#FF00FF 1px 0 0,#FF00FF 0 1px 0,#000 -1px 0 0,#FF00FF 0 -1px 0;  
+    font-size:16px;
+    font-weight:bold;
+    color:white;width: 180px; height: 300px;}
+.cc{display: block;position: relative;top: -660px;left: 680px;
+    transform:rotate(15deg);
+     text-shadow:#EE0000 1px 0 0,#EE0000 0 1px 0,#000 -1px 0 0,#EE0000 0-1px 0;  
+    font-size:16px;
+    font-weight:bold;
+    color:white;width: 180px; height: 300px;}
+.xx{display: block;position: relative;top: -980px;left: 930px;
+    transform:rotate(15deg);
+     text-shadow:   #7CFC00 1px 0 0,    #7CFC00 0 1px 0,#7CFC00 -1px 0 0,  #7CFC00 0-1px 0;  
+    font-size:16px;
+    font-weight:bold;
+    color:white;width: 180px; height: 300px;}
+.vv{display: block;position: relative;top: -1060px;left: 900px;
+    transform:rotate(4deg);
+     text-shadow:   #7CFC00 1px 0 0,    #7CFC00 0 1px 0,#7CFC00 -1px 0 0,  #7CFC00 0-1px 0;  
+    font-size:16px;
+    font-weight:bold;
+    color:white;width: 250px; height: 300px;}
+/*����锟窖��烽��锟�*/
+.q1{position: relative;left:810px;top: -450px;}
+.q2{position: relative;left:580px;top: -300px;}
+.q3{position: relative;left:352px;top: -148px;}
+.q4{position: absolute;left: 410px;top: 1000px;}
+.q4 img{border-radius:99px 99px 99px 99px;}
+/* hope */
+.text6 {font-family: "����锟斤拷��浠�锟斤拷���ゆ�峰�硷拷��锟�"; font-size: 30px; color: #FFF; -webkit-box-reflect: below 1px -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(white)); width:1000px; margin:auto  }
+.hope{ border-top:50px #559664 solid; padding:20px; color:#FFF }
+.hope ul{ width:1000px; margin:auto;background: url(https://i.ibb.co/PzcMBnn/love.png) no-repeat left center; overflow:hidden}
+.visitors{ width:500px; float:right}
+.visitors dl { display: block; overflow: hidden; margin-bottom: 12px }
+.visitors dt { float: left; }
+.visitors dt img { width: 100px; height: 100px; margin-right: 20px; border-radius:100% }
+.visitors dd { line-height: 22px; }
+.visitors dd a{ color:#d2ec40; font-size:14px; font-weight:bold}
+.visitors dt+dd{ margin-top:20px}
+/*footer*/
+footer{ background:#032e13; height:56px; line-height:56px;border: 2px solid}
+footer p{ width:1000px; margin:auto; text-align:right;color:#BF3EFF }
+footer p a{color:#C0FF3E}
+footer p a:hover{ text-decoration:underline}
